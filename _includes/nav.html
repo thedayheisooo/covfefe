@@ -1,0 +1,12 @@
+<nav {% if page.layout == 'home' %}class="absolute"{% endif %}>
+  <div class="ooo_nav__logo">
+    <a href="/">
+      {% include svg/ooo_logo.html %}
+    </a>
+  </div>
+  <ul>
+    {% for el in site.data.nav.main %}
+    <li><a href="{{ el.url }}">{{ el.name }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>

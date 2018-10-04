@@ -1,0 +1,20 @@
+<div class="ooo_intro">
+  <div class="ooo__grid_el">
+    <h2>{{ page.intro.title }}</h2>
+    <p class="intro_el">{{ page.intro.text }}</p>
+    <ol class="reasons">
+      {% for reason in page.intro.reasons %}
+        <li><p>{{ reason | markdownify }}</p></li>
+      {% endfor %}
+    </ol>
+    <ul class="numbers">
+      {% for el in page.intro.numbers %}
+      <li>
+        <p class="number">{{ el.number }}</p>
+        <p class="title">{{ el.title }}</p>
+        <p class="text">{{ el.text }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

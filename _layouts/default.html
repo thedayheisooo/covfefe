@@ -1,0 +1,15 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+  <body class="ooo ooo_{{ page.layout | downcase }}">
+    {% include/nav_mobile.html %}
+    {{ content }}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ "/assets/js/main.js" | prepend: site.baseurl}}"></script>
+    {% if page.layout == 'home' %}<script type="text/javascript" src="{{ "/assets/js/home.js" | prepend: site.baseurl}}"></script>{% endif %}
+ </body>
+
+</html>

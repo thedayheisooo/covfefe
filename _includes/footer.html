@@ -1,0 +1,16 @@
+<footer class="ooo__footer">
+  <div class="info">
+    {% include svg/ooo_sec_col_rgb.html %}
+    <p>TDHIOOO is a trademark owned by us.</p>
+    <p>For inqueris of any topic please reach out to us by this <a href="#">address.</a></p>
+    <div class="links">
+      <ul>
+        {% for el in site.data.nav.main %}
+        <li><a href="{{ el.url }}">{{ el.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <p class="top">TDHIOOO &copy; 2018</p>
+  </div>
+
+</footer>

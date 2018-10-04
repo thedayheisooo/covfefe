@@ -1,0 +1,33 @@
+<section class="ooo_social ooo_blue ooo_stamp">
+  <div class="ooo__grid_el">
+    <h2>SOCIAL MEDIA:<br>See WHAT‘S HAPPENING</h2>
+    <p class="intro_el">In case you are wondering what we are working on or where somebody is preparing for the big party.</p>
+  </div>
+  <div id="ooo_twitter">
+    <div class="ooo_twitter__inner">
+      {% for tweet in site.data.twitter %}
+        <blockquote class="ooo_card ooo_tweet">
+          <p>{{ tweet.content }}</p>
+          <cite>
+            <img src="{{ tweet.user.image }}" alt="{{ tweet.user.name }}">
+            <a href="{{ tweet.url }}">
+              {{ tweet.user.name }}
+              <small>
+                <i class="fab fa-twitter"></i>
+                @{{ tweet.user.handle }}
+              </small>
+            </a>
+          </cite>
+        </blockquote>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="ooo__grid_el grid__social">
+    <div class="social_channels">
+      {% for channel in site.data.social.channels %}
+        <a href="{{ channel.link }}"><i class="fab fa-{{ channel.fa-icon }}"></i></a>
+      {% endfor %}
+      <p class="hashtag">Always remember: <b>#ooo</b></p>
+    </div>
+  </div>
+</section>

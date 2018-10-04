@@ -1,0 +1,30 @@
+<section class="members ooo_container">
+  <h2>Members.</h2>
+  <p class="about_members">{{ page.about_members }}</p>
+  <div class="ooo_members__frame">
+    {% for member in page.members %}
+      <div class="ooo_card">
+        <div class="card__logo">
+          {% include svg/ooo_logo.html %}
+        </div>
+        <img src="{% if member.img %}{{ member.img | prepend: site.baseurl }}{% else %}{{ "/assets/images/dev/placeholder.jpg" | prepend: site.baseurl }}{% endif %}" alt="">
+        <div class="card__content">
+          <p class="position">{{ member.position }}</p>
+          <h3>{{ member.name }}</h3>
+          <p class="about">{{ member.about }}</p>
+        </div>
+        <div class="contact">
+          {% if member.contact.twitter %}
+            <a href="{{ member.contact.twitter }}"><i class="fab fa-twitter"></i></a>
+          {% endif %}
+          {% if member.contact.email %}
+            <a href="{{ member.contact.email }}"><i class="fas fa-envelope"></i></a>
+          {% endif %}
+          {% if member.contact.linkedin %}
+            <a href="{{ member.contact.linkedin }}"><i class="fab fa-linkedin-in"></i></a>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>

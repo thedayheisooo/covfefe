@@ -1,0 +1,16 @@
+<section class="ooo_top">
+  <div class="ooo__logo">
+    {% include svg/ooo_logo.html %}
+  </div>
+  <div class="top__nav">
+    <ul>
+      {% for el in site.data.nav.main %}
+      <li
+      {% if el.url == page.url %}
+         class="active"
+      {% endif %}
+      ><a href="{{ el.url }}">{{ el.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

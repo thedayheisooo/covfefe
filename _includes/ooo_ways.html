@@ -1,0 +1,18 @@
+<section class="ooo_ways ooo_blue ooo_stamp">
+  <div class="ooo__grid_el ooo__grid_inline">
+    <h2>{{ page.3way.title }}</h2>
+    <p class="intro_el">{{ page.3way.intro }}</p>
+  </div>
+  <div class="ooo__grid_el ooo__grid_inline ways_parent">
+    <div class="ooo_ways__frame">
+      {% for el in page.3way.ways %}
+        <div class="ooo_ways__item {% if el.pending == true %}pending{% endif %}">
+          <h3>{{ el.number }}. {{ el.title }}</h3>
+          {{ el.content | markdownify }}
+          <p class="pending_notice">Comming soon!</p>
+          <a class="btn" href="{{ el.button.url }}">{{ el.button.text }}</a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

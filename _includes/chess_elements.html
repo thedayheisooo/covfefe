@@ -1,0 +1,29 @@
+<section class="ooo__chessview">
+  {% for item in page.items %}
+    <div class="ooo_row">
+      <div class="ooo_element ooo_element__image {% if item.image %}ooo_whiteout{% endif %}" style="background-image: url({{ item.image | prepend: '/assets/images/dev/placeholder.jpg' | prepend: site.base_url }})">
+        {% if item.image %}
+          <img src="{{ item.image | prepend: site.base_url }}" alt="{{ item.title }}">
+        {% endif %}
+      </div>
+      <div class="ooo_element ooo_element__text">
+        <div class="ooo_element__inner">
+          <h2>{{ item.title }}</h2>
+          <p>{{ item.content | markdownify }}</p>
+          {% if item.action %}
+            {% for button in item.action %}
+              <a class="btn{% if button.active == false %} inactive {% endif %}{% if button.message %} triangle_init {% endif %}" href="{{ button.link }}">{{ button.title }}</a>
+            {% endfor %}
+            {% for button in item.action %}
+              {% if button.message %}
+                <div class="speechbubble">
+                  <p class="message">{{ button.message }}</p>
+                </div>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</section>

@@ -1,0 +1,10 @@
+channels:
+  - channel: Facebook
+    fa-icon: facebook
+    link: /
+  - channel: Twitter
+    fa-icon: twitter
+    link: /
+  - channel: Instagram
+    fa-icon: instagram
+    link: /

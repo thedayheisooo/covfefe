@@ -1,0 +1,26 @@
+main:
+  - name: Home
+    url: /
+  - name: About us
+    url: /about/
+  - name: Donate & Buy
+    url: /donate/
+  - name: Join the movement
+    url: /get_involved/
+
+mobile:
+  - name: Home
+    url: /
+    icon: ooo_sec_wht_rgb
+  - name: About
+    url: /about/
+    icon: group
+  - name: Donate
+    url: /donate/
+    icon: donate
+  - name: Join
+    url: /get_involved/
+    icon: join
+  - name: Buy
+    url: '/#buy'
+    icon: buy

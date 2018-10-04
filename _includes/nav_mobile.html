@@ -1,0 +1,12 @@
+<section class="ooo_mobile_nav">
+  {% for el in site.data.nav.mobile %}
+    <a href="{{ el.url }}" class="nav_el{% if el.name == 'Buy' %} buy{% endif %}">
+      <div class="icon">
+        {% if el.icon %}
+          {% include svg/{{el.icon}}.html %}
+        {% endif %}
+      </div>
+      <p>{{ el.name }}</p>
+    </a>
+  {% endfor %}
+</section>

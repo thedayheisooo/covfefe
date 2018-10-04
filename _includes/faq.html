@@ -1,0 +1,34 @@
+<section class="ooo__faq">
+  <h2>WTF? —<br>In case there is more to ask.</h2>
+  <div class="faq_cols">
+    <div class="col_one faq_col">
+      {% for el in site.data.faq %}
+        <div class="faq__section">
+          <h3>{{ el.section }}</h3>
+          {% for item in el.faq %}
+            <div class="faq_el">
+              <p>{{ item.q }}</p>
+              <div class="faq__a">
+                <div class="faq__a__inner">
+                  {{ item.a | markdownify }}
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+    <div class="col_two faq_col">
+      <h3>Even more questions?</h3>
+      <p>Wow, you are a really tough customer to handle. However — we are kind of interested in your thoughts and ideas so let us know.</p>
+      <p>For the moment reach out to us via our Twitter <a href="https://twitter.com/{{ site.data.defaults.contact.twitter }}">{{ site.data.defaults.contact.twitter }}</a> or send us an <a href="mailto:{{ site.data.defaults.contact.email }}">email.</a> </p>
+      <p>Btw. did we already mention our social media channels?</p>
+      <div class="social_channels dark">
+        {% for channel in site.data.social.channels %}
+          <a href="{{ channel.link }}"><i class="fab fa-{{ channel.fa-icon }}"></i></a>
+        {% endfor %}
+        <p class="hashtag">Always remember: <b>#ooo</b></p>
+      </div>
+    </div>
+  </div>
+</section>
