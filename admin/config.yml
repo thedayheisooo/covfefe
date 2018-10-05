@@ -1,0 +1,95 @@
+backend:
+  name: github
+  repo: thedayheisooo/covfefe
+
+media_folder: "assets/images/media_library"
+
+collections:
+  - name: 'sites'
+    label: "Sites"
+    editor:
+        preview: false
+    files:
+      - name: 'index'
+        label: "Main"
+        file: "index.md"
+        extension: "md"
+        fields:
+          - label: 'Layout'
+            name: 'layout'
+            widget: 'hidden'
+            default: 'home'
+            required: true
+          - label: 'Claim'
+            name: title-claim
+            widget: 'string'
+          - label: 'Intro'
+            name: 'intro'
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'Content'
+                name: 'text'
+                widget: 'markdown'
+              - label: 'Reasons'
+                name: 'reasons'
+                widget: 'list'
+                field:
+                  label: 'Reason'
+                  name: 'reason'
+                  widget: 'string'
+              - label: 'Numbers'
+                name: 'numbers'
+                widget: 'list'
+                fields:
+                  - { label: Number, name: number, widget: string }
+                  - { label: Title, name: title, widget: string }
+                  - { label: Text, name: text, widget: markdown }
+          - label: '3 Ways'
+            name: '3way'
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'Intro'
+                name: 'intro'
+                widget: 'markdown'
+              - label: 'Ways'
+                name: 'ways'
+                widget: 'list'
+                fields:
+                  - { label: Title, name: title, widget: string }
+                  - { label: Number, name: number, widget: string }
+                  - { label: Content, name: content, widget: markdown }
+                  - label: 'Button'
+                    name: 'button'
+                    widget: 'object'
+                    fields:
+                      - { label: Text, name: text, widget: string }
+                      - { label: URL, name: url, widget: string }
+                  - { label: Pending?, name: pending, widget: boolean }
+      - name: 'about'
+        label: 'About'
+        file: 'about.md'
+        fields:
+          - { label: Layout, name: layout, widget: hidden, default: about }
+          - { label: Title, name: title, widget: string }
+          - { label: Intro, name: intro, widget: markdown }
+          - { label: About Members, name: about_members, widget: markdown }
+          - label: 'Members'
+            name: 'members'
+            widget: 'list'
+            fields:
+              - { label: Name, name: name, widget: string, default: true }
+              - { label: Position, name: position, widget: string }
+              - { label: About, name: about, widget: markdown }
+              - label: 'Contact'
+                name: 'contact'
+                widget: 'object'
+                fields:
+                  - { label: Linkedin, name: linkedin, widget: string }
+                  - { label: Twitter, name: twitter, widget: string }
+                  - { label: eMail, name: email, widget: string }

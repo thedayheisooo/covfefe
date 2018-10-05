@@ -6,8 +6,8 @@ intro:
   text: >
     Exactly – getting a drink ready to celebrate his final day in office is powerful for two reasons.
   reasons:
-    - Seeing the bottle will be your daily boost of motivation to keep fighting.
-    - You contribute $3 to organizations which are fighting for our democracy and freedom.
+    - reason: Seeing the bottle will be your daily boost of motivation to keep fighting.
+    - reason: You contribute $3 to organizations which are fighting for our democracy and freedom.
   numbers:
     - number: '9,874'
       title: people got their ooo-drink prepared

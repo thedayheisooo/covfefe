@@ -35,5 +35,5 @@ members:
   - name: Aron
     image: /image/path
     about: Ligula ante et malesuada mus rhoncus aptent finibus eget, senectus posuere viverra fringilla molestie aliquam bibendum, dapibus lobortis magna elementum euismod sollicitudin praesent. Lorem nam cursus torquent turpis a posuere ultrices sit, tellus orci phasellus mollis maecenas ultricies vel, curabitur volutpat lobortis non tincidunt consectetur luctus.
-  - name:
+  - name: John Doe
 ---
