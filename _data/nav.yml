@@ -7,6 +7,8 @@ main:
     url: /donate/
   - name: Join the movement
     url: /get_involved/
+  - name: buy
+    url: /#buy
 
 mobile:
   - name: Home

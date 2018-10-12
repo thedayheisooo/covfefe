@@ -47,4 +47,8 @@ intro:
         text: Contact us
         url: /
       pending: true
+shop_intro: >
+  This is where the magic happens. Where our products are sold and where you can make a difference. All of our products will contribute to an organisation of you choice — if you decide to buy.
+  <br>
+  Let‘s start makin' some changes.
 ---

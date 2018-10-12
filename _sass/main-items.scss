@@ -54,7 +54,7 @@ h3 {
   };
 }
 
-p, a, ol {
+p, a, ol, ul {
   font-family: $main;
   color: $blue;
   margin: 0;
@@ -134,6 +134,20 @@ nav {
         @include pure-link(black);
         border: none;
       }
+    }
+  }
+  &:not(.absolute){
+    ul li a.buy {
+      background: $red;
+      border-radius: 5px;
+      padding: 5px 15px;
+      text-decoration: none;
+      font-family: $main;
+      @include link-mix(white);
+      font-size: .8rem;
+      text-transform: uppercase;
+      position: relative;
+      border-bottom: none;
     }
   }
   .ooo_nav__logo {
@@ -322,6 +336,9 @@ footer {
         font-weight: 500;
         color: $blue;
         border: none;
+      }
+      &.buy a {
+        color: $red;
       }
       &.active {
         position: relative;
@@ -795,9 +812,9 @@ main {
   flex-wrap: wrap;
   &>a {
     border-radius: 50%;
-    padding: 10px;
+    padding: 8px;
     display: inline-block;
-    border: 10px solid white;
+    border: 15px solid white;
     opacity: .5;
     width: 15px;
     height: 15px;
@@ -1091,5 +1108,51 @@ main {
   svg {
     width: calc( 50px + 20vw );
     height: auto;
+  }
+}
+
+.ooo_quote {
+  @include display_flex;
+  @include justify-content(center);
+  @include align-items(center);
+  @include direction_column;
+  padding: 75px 1em;
+  @include media-query($medium){
+    padding: 150px 50px;
+  };
+  p {
+    font-size: 1rem;
+    line-height: 1.1em;
+    text-align: center;
+  }
+  p.quote {
+    font-size: 3rem;
+    font-weight: 700;
+    @include media-query($medium){
+      font-size: 5rem;
+    };
+  }
+  p.author {
+    position: relative;
+    margin-top: 20px;
+    &:before {
+      content: url('/assets/images/dev/ooo_sec_wht_rgb_circles.svg');
+      position: absolute;
+      height: 15px;
+      width: 35px;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      bottom: calc(100% + 10px);
+    }
+  }
+  p.date {
+    text-transform: uppercase;
+    font-size: 70%;
+    letter-spacing: .1em;
+    margin: 5px 0;
+  }
+  p.desc {
+    opacity: .7;
+    max-width: 400px;
   }
 }

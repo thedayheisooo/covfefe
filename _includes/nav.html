@@ -6,7 +6,7 @@
   </div>
   <ul>
     {% for el in site.data.nav.main %}
-    <li><a href="{{ el.url }}">{{ el.name }}</a></li>
+    <li><a href="{{ el.url }}" {% if el.name == 'buy' %}class="buy"{% endif %}>{{ el.name }}</a></li>
     {% endfor %}
   </ul>
 </nav>

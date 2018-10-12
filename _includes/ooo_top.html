@@ -5,10 +5,14 @@
   <div class="top__nav">
     <ul>
       {% for el in site.data.nav.main %}
-      <li
-      {% if el.url == page.url %}
-         class="active"
+      <li class="
+      {% if el.name == 'buy' %}
+        buy
       {% endif %}
+      {% if el.url == page.url %}
+         active
+      {% endif %}
+       "
       ><a href="{{ el.url }}">{{ el.name }}</a></li>
       {% endfor %}
     </ul>

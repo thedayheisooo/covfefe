@@ -1,0 +1,16 @@
+<section id="buy" class="interactive">
+  <h2>Shop Now!</h2>
+  <p class="intro_el">{{ page.shop_intro }}</p>
+  <div class="shop_cols">
+    {% for product in site.data.products %}
+      <div class="shop_image">
+        {% include svg/ooo_sec_wht_rgb.html %}
+      </div>
+      <div class="shop_info">
+        <p>{{ product.description | markdownify }}</p>
+        <p class="price">{{ product.currency }} {{ product.price }} <span class="small">(excl. VAT)</span> </p>
+        <a href="#" class="btn{% if product.active == false %} inactive{% endif %}">Add to cart</a>
+      </div>
+    {% endfor %}
+  </div>
+</section>
