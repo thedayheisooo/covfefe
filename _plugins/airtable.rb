@@ -4,11 +4,11 @@ require 'active_support/all'
 # require 'active_support/all'
 
 # Pass in api key to client
-@client = Airtable::Client.new("ENV['AIRTABLE_API']")
+@client = Airtable::Client.new(ENV['AIRTABLE_API'])
 
 # Pass in the app key and table name
 
-@table = @client.table("ENV['AIRTABLE_TABLE']", "Tweets")
+@table = @client.table(ENV['AIRTABLE_TABLE'], "Tweets")
 #@records = @table.records()
 @records = @table.records(:filterByFormula => "AND(include, NOT(featured))")
 
