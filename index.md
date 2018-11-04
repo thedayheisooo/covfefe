@@ -76,7 +76,7 @@ faq:
 quote:
   author: Brett Kavanaugh
   content: I liked beer. I still like beer.
-  date: Sep. 27
+  date: 'Sep. 27, 2018'
   desc: >-
     Associate Justice of the Supreme Court of the United States, highly
     emotional 'gentleman' and man who — among other "things“ — apparently likes
