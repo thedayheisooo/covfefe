@@ -20,9 +20,9 @@ intro:
     - >-
       Seeing the bottle will be your daily boost of motivation to keep fighting.
       ^bk
-    - reason: >-
-        You contribute $3 to organizations which are fighting for our democracy
-        and freedom.
+    - >-
+      You contribute $3 to organizations which are fighting for our democracy
+      and freedom.
   text: >-
     Exactly – getting a drink ready to celebrate his final day in office is
     powerful for two reasons. ^bk
@@ -67,4 +67,3 @@ shop_intro: >-
   make a difference. All of our products will contribute to an organisation of
   you choice — if you decide to buy. <br> Let‘s start makin' some changes. ^bk
 ---
-

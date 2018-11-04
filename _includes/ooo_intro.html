@@ -3,10 +3,8 @@
     <h2>{{ page.intro.title }}</h2>
     <p class="intro_el">{{ page.intro.text }}</p>
     <ol class="reasons">
-      {% for reason_hash in page.intro.reasons %}
-        {% for reason in reason_hash %}
-          <li><p>{{ reason[1] | markdownify }}</p></li>
-        {% endfor %}
+      {% for reason in page.intro.reasons %}
+        <li><p>{{ reason | markdownify }}</p></li>
       {% endfor %}
     </ol>
     <ul class="numbers">
