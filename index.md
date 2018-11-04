@@ -66,12 +66,10 @@ faq:
     interested in your thoughts and ideas so let us know.
 
 
-
     For the moment reach out to us via our Twitter
     [@thedayheisooo](https://twitter.com/@thedayheisooo) or send us an
     [email](mailto:thedayheisooo@gmail.com).
 
-    \
 
     Btw. did we already mention our social media channels?
   more_title: Even more questions?
