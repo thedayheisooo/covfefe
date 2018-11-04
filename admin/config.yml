@@ -71,6 +71,9 @@ collections:
                       - { label: Text, name: text, widget: string }
                       - { label: URL, name: url, widget: string }
                   - { label: Pending?, name: pending, widget: boolean }
+          - label: 'Shop Intro'
+            name: 'shop_intro'
+            widget: 'markdown'
       - name: 'about'
         label: 'About #ooo'
         file: 'about.md'
@@ -97,7 +100,7 @@ collections:
         label: 'Donate'
         file: 'donate.md'
         fields:
-          - { name: layout, widget: string }
+          - { name: layout, widget: hidden, default: chess_view }
           - { name: title, label: Title, widget: string }
           - { name: intro, label: Intro, widget: markdown }
           - name: 'items'
@@ -111,23 +114,17 @@ collections:
               - name: 'action'
                 label: 'Actions'
                 widget: 'list'
+                hint: 'please only make use of the "active" function on the last button, as the UI otherwise will get cluttered.'
                 fields:
                   - { name: title, label: Button Text, widget: string }
                   - { name: link, label: URL, widget: string, hint: Please enter a valid URL }
-                  - name: 'active'
-                    label: 'Active'
-                    default: true
-                    widget: boolean
-
-
-
-
+                  - { name: active, label: Active, widget: boolean, default: true }
                   - { name: message, label: Info Message, widget: markdown, hint: This message will only be displayed if the button is deactivated }
       - name: 'getinvolved'
         label: Get Involved!
         file: 'get_involved.md'
         fields:
-          - { name: layout, widget:hidden }
+          - { name: layout, widget: hidden, default: chess_view }
           - { name: title, label: Title, widget: string, required: true }
           - { name: intro, layout: Intro Text, widget: markdown }
           - name: items
@@ -153,9 +150,19 @@ collections:
             fields:
               - { name: email, label: eMail, widget: string }
               - { name: twitter, label: Twitter Username, widget: string }
-      # - name: 'faq'
-      #   label: 'FAQ'
-      #   file: '_data/faq.yml'
-      #   extension: 'yml'
-      #   fields:
-      #     - { name: }
+      - name: 'faq'
+        label: 'FAQ'
+        file: '_data/faq.yml'
+        extension: 'yml'
+        fields:
+          - name: 'faqs'
+            label: 'FAQ Sections'
+            widget: 'list'
+            fields:
+              - { name: section, label: Section, widget: string }
+              - name: 'faq'
+                label: 'FAQ'
+                widget: 'list'
+                fields:
+                  - { name: q, label: Question, widget: string }
+                  - { name: a, label: Answer, widget: markdown }

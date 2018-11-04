@@ -1,60 +1,61 @@
-- section: About this movement
-  faq:
-    - q: What is this all about?
-      a: >
-        We are offering the #resistance all over the US a daily reminder that it is worth to keep fighting because we are going to win ultimately! The reminder comes in form of a label you can put on a drink of your choice. Champagne, wine, beer – however you like to celebrate.The best: By getting your drink for the big ooo party prepared, you are helping getting the party started! With every label you buy you donate 4 USD to organizations who fight for our democracy.
-    - q: Are you just another organization fighting the insanity?
-      a: >
-        Not at all! We are just supporting the other organizations (link “donate” section) and their activists out there. One could call us “the movement behind the movement”.
-    - q: How do you support the resistance?
-      a: >
-        By selling our label, it is that simple. Think about it: By selling awesome labels (link to shop site) we raise money for all the great organizations (link to donate section) out there and more importantly, we are reminding the resistance that a great party will come - in dark times you need something to look forward to! And boy, we have something to look forward to - we are going to have a party so legendary it will go down in history.
-    - q: So you guys are going to organize a party?
-      a: >
-        This won’t be even necessary. Think about it, the moment the news breaks that he is finally ooo – what happens next? Our guess: The world will stand still for a moment, the world will take a deep breath and then people will fill the streets of NYC, Chicago, Houston and hell, probably even in rural Mississippi! It will be a glorious day.
-    - q: What will we actually be celebrating?
-      a: >
-        Not the end but an important step towards the end of injustice, lies, racism, the whole enchilada.
-    - q: I am not the guy for parties.
-      a: >
-        Actually, some in our team are just like that (guess who! Exactly, the two Germans). They will just sit alone on their balcony with their drink, watch the clouds and shed a tear of relief and deep contentedness.
-    - q: Why do I need you to celebrate that he is ooo?
-      a: >
-        No one needs us, we are not important! Only you and your resistance are important. We are just here in case you lose your motivation to remind you that we are many and that we will win!
-    - q: I voted for him and now I regret it – am I still allowed to celebrate with you?
-      a: >
-        Yes – we love and appreciate you!
-    - q: Wait, there is nothing left to celebrate when he is ooo. We will not recover easily from the damage he has done to the country and maybe we’ll have Pence as president?
-      a: >
-        The day he is ooo is the day to celebrate – nothing else! The very next day the fight will be fucking on again and we will be on your side fighting Pence and/or rebuild our democracy, values and society.
-    - q: There are guys from Germany in your team – why don’t they stay out of our politics?
-      a: >
-        Why should we only let Russians meddle with our politics? And hey, the Trump crowd hates this movement even more for our international and diverse team. Now that we think about it: We should add Mexicans and Muslims to our team. Shoot us a message if you belong to a minority Trump hates and you have time to support us.
-    - q: Trump might serve a second term.
-      a: >
-        Yes, but as long as he does not change our country into an autocracy the second term will be his last term and we’ll get to party eventually.
-    - q: I am pro Trump, I am very angry and I hate all of this.
-      a: >
-        We don’t hate you little Snowflake, we just feel sorry! Well and we are wondering, did we get covered by Fox News or how else did you find us?
-- section: About our product and your order
-  faq:
-    - q: Do you ship internationally?
-      a: We first want to meet demand in the USA, they need it most. We will keep you posted.
-    - q: I haven’t received my ticket. Should I be worried?
-      a: No. You should be worried about the President.
-    - q: Seriously, I haven’t received anything yet.
-      a: If you haven’t received your ticket 6 weeks after your order, write us an [email](mailto:thedayheisooo@gmail.com).
-    - q: My ticket arrived damaged or misprinted.
-      a: If you can’t live with it, email us and we’ll send you a replacement.
-    - q: I’d like to cancel my order or change my address.
-      a: It’s too late. The wheels of destiny are in motion.
-    - q: I want tracking info on my ticket.
-      a: There’s no possible way to provide tracking for a million envelopes.
-    - q: How much money will go to charity for each ticket I buy?
-      a: We will wire at least 4$ to one of these organizations.
-    - q: Can I choose who I want to support with my purchase?
-      a: Yes – you can pick your favorite organization during the order process.
-    - q: Is it too late to get my ticket in time?
-      a: Let’s hope you blew it. We usually need up to 2 weeks for shipment and if you blew it it means he is gone soon, yay!
-    - q: What happens if Trump blows up the world before I get my tickets?
-      a: You will have other things to worry about, trust us!
+faqs:
+  - section: About this movement
+    faq:
+      - q: What is this all about?
+        a: >
+          We are offering the #resistance all over the US a daily reminder that it is worth to keep fighting because we are going to win ultimately! The reminder comes in form of a label you can put on a drink of your choice. Champagne, wine, beer – however you like to celebrate.The best: By getting your drink for the big ooo party prepared, you are helping getting the party started! With every label you buy you donate 4 USD to organizations who fight for our democracy.
+      - q: Are you just another organization fighting the insanity?
+        a: >
+          Not at all! We are just supporting the other organizations (link “donate” section) and their activists out there. One could call us “the movement behind the movement”.
+      - q: How do you support the resistance?
+        a: >
+          By selling our label, it is that simple. Think about it: By selling awesome labels (link to shop site) we raise money for all the great organizations (link to donate section) out there and more importantly, we are reminding the resistance that a great party will come - in dark times you need something to look forward to! And boy, we have something to look forward to - we are going to have a party so legendary it will go down in history.
+      - q: So you guys are going to organize a party?
+        a: >
+          This won’t be even necessary. Think about it, the moment the news breaks that he is finally ooo – what happens next? Our guess: The world will stand still for a moment, the world will take a deep breath and then people will fill the streets of NYC, Chicago, Houston and hell, probably even in rural Mississippi! It will be a glorious day.
+      - q: What will we actually be celebrating?
+        a: >
+          Not the end but an important step towards the end of injustice, lies, racism, the whole enchilada.
+      - q: I am not the guy for parties.
+        a: >
+          Actually, some in our team are just like that (guess who! Exactly, the two Germans). They will just sit alone on their balcony with their drink, watch the clouds and shed a tear of relief and deep contentedness.
+      - q: Why do I need you to celebrate that he is ooo?
+        a: >
+          No one needs us, we are not important! Only you and your resistance are important. We are just here in case you lose your motivation to remind you that we are many and that we will win!
+      - q: I voted for him and now I regret it – am I still allowed to celebrate with you?
+        a: >
+          Yes – we love and appreciate you!
+      - q: Wait, there is nothing left to celebrate when he is ooo. We will not recover easily from the damage he has done to the country and maybe we’ll have Pence as president?
+        a: >
+          The day he is ooo is the day to celebrate – nothing else! The very next day the fight will be fucking on again and we will be on your side fighting Pence and/or rebuild our democracy, values and society.
+      - q: There are guys from Germany in your team – why don’t they stay out of our politics?
+        a: >
+          Why should we only let Russians meddle with our politics? And hey, the Trump crowd hates this movement even more for our international and diverse team. Now that we think about it: We should add Mexicans and Muslims to our team. Shoot us a message if you belong to a minority Trump hates and you have time to support us.
+      - q: Trump might serve a second term.
+        a: >
+          Yes, but as long as he does not change our country into an autocracy the second term will be his last term and we’ll get to party eventually.
+      - q: I am pro Trump, I am very angry and I hate all of this.
+        a: >
+          We don’t hate you little Snowflake, we just feel sorry! Well and we are wondering, did we get covered by Fox News or how else did you find us?
+  - section: About our product and your order
+    faq:
+      - q: Do you ship internationally?
+        a: We first want to meet demand in the USA, they need it most. We will keep you posted.
+      - q: I haven’t received my ticket. Should I be worried?
+        a: No. You should be worried about the President.
+      - q: Seriously, I haven’t received anything yet.
+        a: If you haven’t received your ticket 6 weeks after your order, write us an [email](mailto:thedayheisooo@gmail.com).
+      - q: My ticket arrived damaged or misprinted.
+        a: If you can’t live with it, email us and we’ll send you a replacement.
+      - q: I’d like to cancel my order or change my address.
+        a: It’s too late. The wheels of destiny are in motion.
+      - q: I want tracking info on my ticket.
+        a: There’s no possible way to provide tracking for a million envelopes.
+      - q: How much money will go to charity for each ticket I buy?
+        a: We will wire at least 4$ to one of these organizations.
+      - q: Can I choose who I want to support with my purchase?
+        a: Yes – you can pick your favorite organization during the order process.
+      - q: Is it too late to get my ticket in time?
+        a: Let’s hope you blew it. We usually need up to 2 weeks for shipment and if you blew it it means he is gone soon, yay!
+      - q: What happens if Trump blows up the world before I get my tickets?
+        a: You will have other things to worry about, trust us!

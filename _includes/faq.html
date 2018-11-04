@@ -2,7 +2,7 @@
   <h2>WTF? —<br>In case there is more to ask.</h2>
   <div class="faq_cols">
     <div class="col_one faq_col">
-      {% for el in site.data.faq %}
+      {% for el in site.data.faq.faqs %}
         <div class="faq__section">
           <h3>{{ el.section }}</h3>
           {% for item in el.faq %}

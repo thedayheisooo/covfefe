@@ -11,7 +11,8 @@ items:
     background_image:
     action:
       - title: Donate Directly
-        link: https://impeachdonaldtrumpnow.org/
+        link: https://impeachdonaldtrumpnow.org
+        active: true
       - title: Coming Soon
         link: /
         active: false
