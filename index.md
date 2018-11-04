@@ -17,8 +17,7 @@ intro:
         label.
       title: Have been raised to get the party started asap
   reasons:
-    - >-
-      Seeing the bottle will be your daily boost of motivation to keep fighting.
+    - Seeing the bottle will be your daily boost of motivation to keep fighting.
     - >-
       You contribute $3 to organizations which are fighting for our democracy
       and freedom.
@@ -62,15 +61,23 @@ intro:
       pending: true
       title: host a ooo-party
 faq:
-  more_title: Even more questions?
-  more_content: >
-    Wow, you are a really tough customer to handle. However — we are kind of interested in your thoughts and ideas so let us know.
+  more_content: >-
+    Wow, you are a really tough customer to handle. However — we are kind of
+    interested in your thoughts and ideas so let us know.
 
-    For the moment reach out to us via our Twitter [@thedayheisooo](https://twitter.com/@thedayheisooo) or send us an [email](mailto:thedayheisooo@gmail.com).
-        
+
+
+    For the moment reach out to us via our Twitter
+    [@thedayheisooo](https://twitter.com/@thedayheisooo) or send us an
+    [email](mailto:thedayheisooo@gmail.com).
+
+    \
+
     Btw. did we already mention our social media channels?
+  more_title: Even more questions?
 shop_intro: >-
   This is where the magic happens. Where our products are sold and where you can
   make a difference. All of our products will contribute to an organisation of
   you choice — if you decide to buy. <br> Let‘s start makin' some changes.
 ---
+
