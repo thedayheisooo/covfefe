@@ -3,6 +3,8 @@ backend:
   repo: thedayheisooo/covfefe
 
 media_folder: "assets/images/media_library"
+display_url: https://thedayheisooo.netlify.com
+logo_url: 'https://thedayheisooo.netlify.com/assets/images/dev/ooo_pri_col_rgb.svg'
 
 collections:
   - name: 'sites'
