@@ -74,7 +74,7 @@ collections:
                   - { label: Pending?, name: pending, widget: boolean }
           - label: 'FAQ'
             name: 'faq'
-            widget: 'list'
+            widget: 'object'
             allow_add: false
             fields:
               - { label: Title of More Section, name: more_title, widget: string }
