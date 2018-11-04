@@ -78,9 +78,13 @@ section#buy {
   flex: 0 1 calc(50% - 10%);
   margin-bottom: 25px;
   padding: 100px;
+  overflow: hidden;
   @include display_flex;
   @include justify-content(center);
   @include align-items(center);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   svg {
     width: 50%;
   }

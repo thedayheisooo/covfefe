@@ -166,3 +166,18 @@ collections:
                 fields:
                   - { name: q, label: Question, widget: string }
                   - { name: a, label: Answer, widget: markdown }
+      - name: 'product'
+        label: 'Dummy Product'
+        file: '_data/product.yml'
+        extension: 'yml'
+        fields:
+          - name: 'faqs'
+            label: 'FAQ Sections'
+            widget: 'list'
+            fields:
+              - { name: product, label: Product Title, widget: string }
+              - { name: price, label: Price, widget: string }
+              - { name: currency, label: Currency, widget: string, default: USD }
+              - { name: image, label: Image, widget: image }
+              - { name: active, label: Actie, widget: boolean }
+              - { name: description, label: Description, widget: markdown }
