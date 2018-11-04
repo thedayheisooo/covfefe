@@ -150,6 +150,14 @@ collections:
             fields:
               - { name: email, label: eMail, widget: string }
               - { name: twitter, label: Twitter Username, widget: string }
+          - name: 'channels'
+            label: 'Social Channels'
+            widget: 'list'
+            allow_add: false
+            fields:
+              - { name: channel, label: Channel Title, widget: string }
+              - { name: fa-icon, label: Fontawesome-Icon, widget: string }
+              - { name: link, label: Link to Account, string: widget }
       - name: 'faq'
         label: 'FAQ'
         file: '_data/faq.yml'
@@ -171,13 +179,9 @@ collections:
         file: '_data/product.yml'
         extension: 'yml'
         fields:
-          - name: 'faqs'
-            label: 'FAQ Sections'
-            widget: 'list'
-            fields:
-              - { name: product, label: Product Title, widget: string }
-              - { name: price, label: Price, widget: string }
-              - { name: currency, label: Currency, widget: string, default: USD }
-              - { name: image, label: Image, widget: image }
-              - { name: active, label: Actie, widget: boolean }
-              - { name: description, label: Description, widget: markdown }
+          - { name: product, label: Product Title, widget: string }
+          - { name: price, label: Price, widget: string }
+          - { name: currency, label: Currency, widget: string, default: USD }
+          - { name: image, label: Image, widget: image }
+          - { name: active, label: Active, widget: boolean, hint: This allows you to show the buy button either as active or greyed out }
+          - { name: description, label: Description, widget: markdown }

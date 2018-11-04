@@ -24,7 +24,7 @@
       <p>For the moment reach out to us via our Twitter <a href="https://twitter.com/{{ site.data.defaults.contact.twitter }}">{{ site.data.defaults.contact.twitter }}</a> or send us an <a href="mailto:{{ site.data.defaults.contact.email }}">email.</a> </p>
       <p>Btw. did we already mention our social media channels?</p>
       <div class="social_channels dark">
-        {% for channel in site.data.social.channels %}
+        {% for channel in site.data.defaults.channels %}
           <a href="{{ channel.link }}"><i class="fab fa-{{ channel.fa-icon }}"></i></a>
         {% endfor %}
         <p class="hashtag">Always remember: <b>#ooo</b></p>
