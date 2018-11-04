@@ -1,5 +1,11 @@
 ---
 ---
+{% include js/jquery.timeago.js %}
+jQuery(document).ready(function() {
+  jQuery("time.ooo_ago").timeago();
+});
+
+
 var window_width = $(window).width();
 var window_height = $(window).height();
 

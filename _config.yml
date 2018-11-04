@@ -20,7 +20,9 @@ excerpt_separator: <!-- more -->
 markdown: kramdown
 highlighter: rouge
 
-plugins: [jekyll-feed]
+plugins:
+  - jekyll-feed
+  - airtable
 
 sass:
   style: compressed

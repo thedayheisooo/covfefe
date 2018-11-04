@@ -868,6 +868,33 @@ main {
       text-decoration: none;
       border: none;
     }
+    p.featured,
+    time {
+      opacity: .5;
+      font-size: .8;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: $blue;
+    }
+    time {
+      font-weight: 400;
+      font-size: .7em;
+      margin-top: 15px;
+      font-family: $main;
+    }
+    .tweet_img {
+      height: 112px;
+      width: 150px;
+      overflow: hidden;
+      border-radius: 8px;
+      margin: 10px 0 0;
+      img {
+        object-fit: cover;
+        max-width: 100%;
+        min-width: 100%;
+      }
+    }
     cite {
       margin-top: auto;
       padding-top: 1.618em;
@@ -880,6 +907,7 @@ main {
         width: 3em;
         height: 3em;
         flex: 0 0 3em;
+        object-fit: cover;
       }
       small {
         display: block;
@@ -889,13 +917,49 @@ main {
       }
     }
   }
-  .ooo_twitter__inner {
+  .ooo_twitter__scroll {
+    @include display_flex;
+    @include direction_row;
     overflow: auto;
+    margin: -10px 0;
+  }
+  .ooo_twitter__inner {
     margin: 0;
     padding: 50px 0;
     @include display_flex;
     @include direction_row;
-    margin: -10px 0;
+    .ooo_load_btn__frame {
+      margin-right: 70px;
+      order: 2;
+      position: relative;
+      flex: 1 0 120px;
+    }
+  }
+  .ooo_load_btn__frame {
+    position: relative;
+    flex: 1 0 140px;
+  }
+  #ooo_load_btn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    flex: 1 0 50px;
+    margin-right: 50px;
+    box-shadow: 0 2px 4px 0 rgba(14,30,37,0.12);
+    @include display_flex;
+    @include justify-content(center);
+    @include align-items(center);
+    cursor: not-allowed;
+    opacity: .5;
+    &.active {
+      opacity: 1;
+      cursor: pointer;
+    }
   }
 }
 

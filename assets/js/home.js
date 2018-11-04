@@ -2,6 +2,7 @@
 ---
 {% include js/slick.min.js %}
 {% include js/faq.js %}
+//{% include js/twitter_db.js %}
 
 $('.ooo_ways__frame').slick({
   infinite: true,
