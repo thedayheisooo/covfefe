@@ -75,10 +75,17 @@ collections:
           - label: 'FAQ'
             name: 'faq'
             widget: 'object'
-            allow_add: false
             fields:
               - { label: Title of More Section, name: more_title, widget: string }
               - { label: Content of More Section, name: more_content, widget: markdown }
+          - label: 'Quote'
+            name: 'quote'
+            widget: 'object'
+            fields:
+              - { label: 'Quote Content', name: content, widget: string }
+              - { label: Author, name: author, widget: string }
+              - { label: Date, name: date, widget: date, format: MMM. DD, YYYY }
+              - { label: Description, name: desc, widget: text }
           - label: 'Shop Intro'
             name: 'shop_intro'
             widget: 'markdown'
