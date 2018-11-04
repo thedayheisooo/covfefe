@@ -74,12 +74,16 @@ faq:
     Btw. did we already mention our social media channels?
   more_title: Even more questions?
 quote:
-  content: I liked beer. I still like beer.
   author: Brett Kavanaugh
-  date: Sept. 27, 2018
-  desc: Associate Justice of the Supreme Court of the United States, highly emotional 'gentleman' and man who — among other "things“ — apparently likes beer
+  content: I liked beer. I still like beer.
+  date: Sep. 27
+  desc: >-
+    Associate Justice of the Supreme Court of the United States, highly
+    emotional 'gentleman' and man who — among other "things“ — apparently likes
+    beer
 shop_intro: >-
   This is where the magic happens. Where our products are sold and where you can
   make a difference. All of our products will contribute to an organisation of
   you choice — if you decide to buy. <br> Let‘s start makin' some changes.
 ---
+
