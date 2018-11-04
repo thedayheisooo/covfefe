@@ -84,7 +84,7 @@ collections:
             fields:
               - { label: 'Quote Content', name: content, widget: string }
               - { label: Author, name: author, widget: string }
-              - { label: Date, name: date, widget: date, format: MMM. DD, YYYY }
+              - { label: Date, name: date, widget: date, format: 'MMM. DD, YYYY' }
               - { label: Description, name: desc, widget: text }
           - label: 'Shop Intro'
             name: 'shop_intro'
