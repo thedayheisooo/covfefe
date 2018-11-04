@@ -7,6 +7,7 @@ media_folder: "assets/images/media_library"
 collections:
   - name: 'sites'
     label: "Sites"
+    delete: false
     editor:
         preview: false
     files:
@@ -71,6 +72,13 @@ collections:
                       - { label: Text, name: text, widget: string }
                       - { label: URL, name: url, widget: string }
                   - { label: Pending?, name: pending, widget: boolean }
+          - label: 'FAQ'
+            name: 'faq'
+            widget: 'list'
+            allow_add: false
+            fields:
+              - { label: Title of More Section, name: more_title, widget: string }
+              - { label: Content of More Section, name: more_content, widget: markdown }
           - label: 'Shop Intro'
             name: 'shop_intro'
             widget: 'markdown'
@@ -136,6 +144,7 @@ collections:
               - { name: image, label: Background Image, widget: image, hint: Image which will be displayed next to the item }
   - name: 'data'
     label: 'Data'
+    delete: false
     editor:
       preview: false
     files:
