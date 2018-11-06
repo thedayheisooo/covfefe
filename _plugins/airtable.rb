@@ -10,7 +10,7 @@ require 'active_support/all'
 
 @table = @client.table(ENV['AIRTABLE_TABLE'], "Tweets")
 #@records = @table.records()
-@records = @table.records(:filterByFormula => "AND(include, NOT(featured))")
+@records = @table.records(:filterByFormula => "AND(include, NOT(featured))", :sort => ["created_at", :desc])
 
 # Change the filename here below but make sure it's in the _data folder.
 File.open("_data/twitter/all.json", "w") do |f|
