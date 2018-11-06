@@ -42,7 +42,7 @@ intro:
       title: engage
     - button:
         text: click here to find out how
-        url: /donate/
+        url: /
       content: >-
         Plenty of organizations are out there fighting for our freedom! Support
         them – we provide you with an overview of organizations you can give
@@ -50,6 +50,7 @@ intro:
         OOO-drink you will donate 5$ to such organizations.
       number: '2'
       title: donate
+      pending: true
     - button:
         text: Contact us
         url: /
@@ -86,4 +87,3 @@ shop_intro: >-
   make a difference. All of our products will contribute to an organisation of
   you choice — if you decide to buy. <br> Let‘s start makin' some changes.
 ---
-

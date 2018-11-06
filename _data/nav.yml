@@ -3,8 +3,8 @@ main:
     url: /
   - name: About us
     url: /about/
-  - name: Donate & Buy
-    url: /donate/
+  # - name: Donate & Buy
+  #   url: /donate/
   - name: Join the movement
     url: /get_involved/
   - name: buy
@@ -17,9 +17,9 @@ mobile:
   - name: About
     url: /about/
     icon: group
-  - name: Donate
-    url: /donate/
-    icon: donate
+  # - name: Donate
+  #   url: /donate/
+  #   icon: donate
   - name: Join
     url: /get_involved/
     icon: join
