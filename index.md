@@ -41,7 +41,7 @@ intro:
       number: '1'
       title: engage
     - button:
-        text: click here to find out how
+        text: comming soon
         url: /
       content: >-
         Plenty of organizations are out there fighting for our freedom! Support
@@ -49,8 +49,8 @@ intro:
         money to or support in a more active way (see #1). By getting an
         OOO-drink you will donate 5$ to such organizations.
       number: '2'
-      title: donate
       pending: true
+      title: donate
     - button:
         text: Contact us
         url: /
@@ -87,3 +87,4 @@ shop_intro: >-
   make a difference. All of our products will contribute to an organisation of
   you choice — if you decide to buy. <br> Let‘s start makin' some changes.
 ---
+
