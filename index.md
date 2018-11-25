@@ -49,7 +49,7 @@ intro:
         money to or support in a more active way (see #1). By getting an
         OOO-drink you will donate 5$ to such organizations.
       number: '2'
-      pending: true
+      pending: false
       title: donate
     - button:
         text: Contact us
