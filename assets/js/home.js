@@ -25,6 +25,17 @@ function video_frame() {
 }
 video_frame();
 
+// product image slider
+$('#shop_image').slick({
+  infinite: true,
+  initialSlide: 0,
+  dots: true,
+  appendDots: $('#shop_image'),
+  arrows: false,
+  lazyLoad: 'ondemand',
+  autoplay: true
+})
+
 
 
 $( window ).resize(function() {

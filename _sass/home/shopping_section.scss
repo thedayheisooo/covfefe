@@ -20,9 +20,9 @@ section#buy {
       font-size: .7em;
     }
   }
-  &>*:not(.soon) {
-    opacity: .5;
-  }
+  // &>*:not(.soon) {
+  //   opacity: .5;
+  // }
   .soon {
     border-radius: 8px;
     box-shadow: 0 2px 4px 0 rgba(14,30,37,0.12);
@@ -77,19 +77,76 @@ section#buy {
   background: rgba(0,0,0,.1);
   flex: 0 1 calc(50% - 10%);
   margin-bottom: 25px;
-  padding: 100px;
-  overflow: hidden;
-  @include display_flex;
-  @include justify-content(center);
-  @include align-items(center);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  max-height: 500px;
+  &.svg_image {
+    @include display_flex;
+    @include justify-content(center);
+    @include align-items(center);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+    overflow: hidden;
+  }
   svg {
     width: 50%;
+  }
+  &:not(.svg_image) {
+    .product_image,
+    .slick-track,
+    .slick-slide,
+    .slick-slide div,
+    .slick-slide div div,
+    .slick-list {
+      height: 100%;
+    }
+    .slick-track {
+      @include display_flex;
+    }
+    .product_image {
+      overflow: hidden;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .slick-dots {
+      list-style: none;
+      padding: 0;
+      @include display_flex;
+      @include justify-content(center);
+      margin: 10px 0;
+      li {
+        width: 25px;
+        background: $blue;
+        height: 5px;
+        opacity: .6;
+        margin: 0 5px;
+        padding: 0;
+        cursor: pointer;
+        &.slick-active {
+          opacity: 1;
+        }
+      }
+      button {
+        font-size: 0;
+        line-height: 0;
+        display: block;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        cursor: pointer;
+        color: transparent;
+        border: 0;
+        outline: 0;
+        background: 0 0;
+      }
+    }
   }
   @include media-query($medium){
     margin-right: 10%;
     margin-bottom: 0;
   };
+
 }

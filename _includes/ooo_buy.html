@@ -1,23 +1,29 @@
 <section id="buy" class="interactive">
-  <div class="soon">
+  <!-- <div class="soon">
     {% include svg/ooo_sec_wht_rgb.html %}
     <p>Our shop is currently in development and will be ready soon.</p>
     <p>Stay tuned for our announcement!</p>
     <p><b>#ooo</b></p>
-  </div>
+  </div> -->
   <h2>Shop Now!</h2>
   <p class="intro_el">{{ page.shop_intro }}</p>
   <div class="shop_cols">
     {% assign product = site.data.product %}
-    <div class="shop_image" {% if product.image %}style="background-image: url({{ product.image }})"{% endif %}>
-      {% unless product.image %}
-      {% include svg/ooo_sec_wht_rgb.html %}
-      {% endunless %}
+    <div class="shop_image{% unless product.images %} svg_image{% endunless %}"{% if product.images %} id="shop_image"{% endif %}>
+      {% if product.images %}
+        {% for image in product.images %}
+        <div class="product_image product_image_{{ forloop.index }}">
+          <img src="{{ image }}" alt="product_image_{{ forloop.index }}">
+        </div>
+        {% endfor %}
+      {% else %}
+        {% include svg/ooo_sec_wht_rgb.html %}
+      {% endif %}
     </div>
     <div class="shop_info">
       <p>{{ product.description | markdownify }}</p>
       <p class="price">{{ product.currency }} {{ product.price }} <span class="small">(excl. VAT)</span> </p>
-      <a href="#" class="btn{% if product.active == false %} inactive{% endif %}">Add to cart</a>
+      <a href="#" class="btn{% if product.active == false %} inactive{% endif %}">{{ product.button_text }}</a>
     </div>
   </div>
 </section>
