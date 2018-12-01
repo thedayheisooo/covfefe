@@ -75,7 +75,7 @@ section#buy {
 .shop_image {
   position: relative;
   background: rgba(0,0,0,.1);
-  flex: 0 1 calc(50% - 10%);
+  //flex: 0 1 calc(50% - 10%);
   margin-bottom: 25px;
   max-height: 500px;
   &.svg_image {
