@@ -2,12 +2,23 @@ product: label
 price: '15.00'
 currency: USD
 images:
+  - /assets/images/media_library/img_4249.jpg
+  - /assets/images/media_library/img_4259.jpg
+  - /assets/images/media_library/img_4283.jpg
+  - /assets/images/media_library/img_4361.jpg
+  - /assets/images/media_library/img_4369.jpg
+  - /assets/images/media_library/img_4402.jpg
 active: false
 button_text: Available Soon
 description: >
-  Taciti fermentum semper urna ipsum fusce molestie amet sollicitudin adipiscing, ultricies nostra consequat litora cras quam egestas facilisis, volutpat torquent donec euismod nam orci dolor ut. Placerat accumsan hac efficitur vehicula at eleifend himenaeos, turpis cursus ligula tellus malesuada aptent nam, euismod parturient massa netus ullamcorper convallis.
+  Taciti fermentum semper urna ipsum fusce molestie amet sollicitudin
+  adipiscing, ultricies nostra consequat litora cras quam egestas facilisis,
+  volutpat torquent donec euismod nam orci dolor ut. Placerat accumsan hac
+  efficitur vehicula at eleifend himenaeos, turpis cursus ligula tellus
+  malesuada aptent nam, euismod parturient massa netus ullamcorper convallis.
 
-  - Ipsum scelerisque habitant nullam mauris semper fames curabitur pulvinar et arcu.
+  - Ipsum scelerisque habitant nullam mauris semper fames curabitur pulvinar et
+  arcu.
 
   - Urna leo vivamus aptent tristique
 
