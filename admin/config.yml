@@ -3,7 +3,7 @@ backend:
   repo: thedayheisooo/covfefe
 
 media_folder: "assets/images/media_library"
-display_url: https://thedayheisooo.netlify.com
+display_url: https://thedayheisooo.com
 logo_url: 'https://thedayheisooo.netlify.com/assets/images/dev/ooo_pri_col_rgb.svg'
 
 collections:
@@ -203,9 +203,7 @@ collections:
           - name: 'images'
             label: 'Images'
             widget: 'list'
-            field:
-              - { name: image, label: Image, widget: image }
-
+            field: { name: image, label: Image, widget: image }
           - { name: active, label: Active, widget: boolean, hint: This allows you to show the buy button either as active or greyed out }
           - { name: button_text, label: Button Text, widget: string }
           - { name: description, label: Description, widget: markdown }
