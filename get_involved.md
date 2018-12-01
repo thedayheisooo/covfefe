@@ -16,27 +16,27 @@ items:
       here](https://www.house.gov/representatives/find-your-representative) and
       familiarize yourself with their agenda!
     title: 1. Who is who?
-  - content: >
-      The list of political issues is long and Donald doesn’t seem to make it
-      any shorter. If you do not yet have a specific political issue in mind
-      (although we suspect you do, otherwise you wouldn’t be here), [check out
-      this list](https://www.isidewith.com/polls/social) to find some causes
-      that may matter to you
+  - content: >-
+      The list of political issues is long and Donald’s tenure hasn’t seemed to
+      make it any shorter. If you do not yet have a specific political issue in
+      mind (although we suspect you do, otherwise you wouldn't be here), check
+      out [this list](https://www.isidewith.com/polls/social) to find some
+      causes that may matter to you.
     title: 2. What do you care about?
-  - content: >
-      Now you do feel the urge to contact one of these infamous politicians and
-      you want to tell them your opinion? Every now and then we all feel like
-      that, don’t we? However, if you’re determined enough to start [find out
-      here how to contact the federal elected
-      officials.](https://www.usa.gov/elected-officials)
+  - content: >-
+      You’re feeling the urge to contact one of these infamous politicians and
+      given them an earful about your opinion? Every now and then we all feel
+      like that, don't we? Find out
+      [here](https://www.usa.gov/elected-officials) how to contact the federal
+      elected officials.
     title: 3. How can I get in touch with elected officials?
-  - content: >
+  - content: >-
       The time has come to get off your couch and physically attend a political
       event. A good start is to attend your local town hall meeting to ensure
       your voice is being heard. Town hall meetings can usually be found on your
-      city’s website.
+      city's website.
     title: 4. Where do I go first?
-  - content: >
+  - content: >-
       The resistance is local and organizations like
       [indivisible.com](https://www.indivisible.org/act-locally/) help you
       finding local, independent groups in your area. Come prepared to make
