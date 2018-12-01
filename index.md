@@ -63,8 +63,9 @@ intro:
       title: host a ooo-party
 faq:
   more_content: >-
-    Wow, you are a really tough customer to handle. However — we are kind of
-    interested in your thoughts and ideas so let us know.
+    Wow, you are a though supporter to handle and honestly, we are wondering if
+    your time wouldn't be  better spent #resisting. But alright — I guess we are
+    kind of interested in your thoughts and ideas so share them with us.
 
 
     For the moment reach out to us via our Twitter
@@ -81,7 +82,7 @@ quote:
   desc: >-
     Associate Justice of the Supreme Court of the United States, highly
     emotional 'gentleman' and man who — among other "things“ — apparently likes
-    beer
+    beer.
 shop_intro: >-
   This is where the magic happens. Where our products are sold and where you can
   make a difference. All of our products will contribute to an organisation of
