@@ -24,8 +24,8 @@ layout: default
 
         <hr class="ooo_hr">
 
-        <form id="ooo-encrypt-form" action="#" method="post">
-            <input id="ooo-password"
+        <form id="staticrypt-form" action="#" method="post">
+            <input id="staticrypt-password"
                    type="password"
                    name="password"
                    placeholder="passphrase"
@@ -43,23 +43,19 @@ layout: default
 {% endif %}
 
 <script>
-    document.getElementById('ooo-encrypt-form').addEventListener('submit', function(e) {
-        e.preventDefault();
-
-        var passphrase = document.getElementById('ooo-password').value,
-            encryptedMsg = '{encrypted}',
-            encryptedHMAC = encryptedMsg.substring(0, 64),
-            encryptedHTML = encryptedMsg.substring(64),
-            decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
-
-        if (decryptedHMAC !== encryptedHMAC) {
-            alert('Bad passphrase!');
-            return;
-        }
-
-        var plainHTML = CryptoJS.AES.decrypt(encryptedHTML, passphrase).toString(CryptoJS.enc.Utf8);
-
-        document.write(plainHTML);
-        document.close();
-    });
+  document.getElementById('staticrypt-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      var passphrase = document.getElementById('staticrypt-password').value,
+          encryptedMsg = '{encrypted}',
+          encryptedHMAC = encryptedMsg.substring(0, 64),
+          encryptedHTML = encryptedMsg.substring(64),
+          decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
+      if (decryptedHMAC !== encryptedHMAC) {
+          alert('Bad passphrase!');
+          return;
+      }
+      var plainHTML = CryptoJS.AES.decrypt(encryptedHTML, passphrase).toString(CryptoJS.enc.Utf8);
+      document.write(plainHTML);
+      document.close();
+  });
 </script>
