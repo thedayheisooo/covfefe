@@ -1,0 +1,97 @@
+.ooo_encrypted {
+  background: url(/assets/images/dev/404.jpg) no-repeat center;
+  background-size: cover;
+  background-position: 30% 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  @include display_flex;
+  @include align-items(center);
+  @include direction_column;
+  @include media-query($small){
+    @include justify-content(center);
+  };
+  &:before {
+    content: '';
+    background: #4455bb;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .6;
+  }
+  footer {
+    z-index: 99;
+    position: absolute;
+    bottom: 0;
+    background: none;
+    p, ul li {
+      @include link-mix(white);
+    }
+  }
+}
+
+.ooo_title {
+  font-size: 1.5rem;
+  line-height: 1.2em;
+  span {
+    font-size: 60%;
+    display: block;
+    margin-top: 1em;
+  }
+}
+
+.ooo_info {
+  margin-top: 1em;
+}
+
+.ooo-instructions {
+  margin-bottom: 1em;
+}
+
+.ooo_hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.ooo-encrypt-form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 50px 1em 100px;
+  padding: 45px;
+  text-align: center;
+  input.btn {
+    background: #f05064;
+    border-radius: 5px;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-family: "Noway",system,sans-serif;
+    color: #fff;
+    font-size: .8rem;
+    text-transform: uppercase;
+    position: relative;
+    border-bottom: none;
+    cursor: pointer;
+  }
+  @include media-query($small){
+    margin-top: 0;
+  };
+}
+
+.ooo-encrypt-form input {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: $main;
+}
