@@ -1,61 +1,69 @@
 ---
-layout: default
 ---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+  <body class="ooo ooo_{{ page.layout | downcase }}">
+    <section class="ooo_encrypted sans-serif">
+        <div class="ooo-encrypt-form ooo_card">
+            <div class="ooo-instructions">
+                <p class="ooo_title">
+                  {% if jekyll.environment == "production" %}
+                     {title}
+                  {% else %}
+                     The Day he Is Out Of Office und mehr Text
+                  {% endif %}
+                  <span>PROTECTED</span>
+                </p>
+                <p class="ooo_info">
+                  {% if jekyll.environment == "production" %}
+                     {instructions}
+                  {% else %}
+                     This website is protected.
+                  {% endif %}
+                </p>
+            </div>
 
-<section class="ooo_encrypted sans-serif">
-    <div class="ooo-encrypt-form ooo_card">
-        <div class="ooo-instructions">
-            <p class="ooo_title">
-              {% if jekyll.environment == "production" %}
-                 {title}
-              {% else %}
-                 The Day he Is Out Of Office und mehr Text
-              {% endif %}
-              <span>PROTECTED</span>
-            </p>
-            <p class="ooo_info">
-              {% if jekyll.environment == "production" %}
-                 {instructions}
-              {% else %}
-                 This website is protected.
-              {% endif %}
-            </p>
+            <hr class="ooo_hr">
+
+            <form id="staticrypt-form" action="#" method="post">
+                <input id="staticrypt-password"
+                       type="password"
+                       name="password"
+                       placeholder="passphrase"
+                       autofocus/>
+
+                <input type="submit" class="btn" value="DECRYPT"/>
+            </form>
         </div>
+        {% include footer.html %}
 
-        <hr class="ooo_hr">
+    </section>
 
-        <form id="staticrypt-form" action="#" method="post">
-            <input id="staticrypt-password"
-                   type="password"
-                   name="password"
-                   placeholder="passphrase"
-                   autofocus/>
+    {% if jekyll.environment == "production" %}
+      {crypto_tag}
+    {% endif %}
 
-            <input type="submit" class="btn" value="DECRYPT"/>
-        </form>
-    </div>
-    {% include footer.html %}
+    <script>
+      document.getElementById('staticrypt-form').addEventListener('submit', function(e) {
+          e.preventDefault();
+          var passphrase = document.getElementById('staticrypt-password').value,
+              encryptedMsg = '{encrypted}',
+              encryptedHMAC = encryptedMsg.substring(0, 64),
+              encryptedHTML = encryptedMsg.substring(64),
+              decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
+          if (decryptedHMAC !== encryptedHMAC) {
+              alert('Bad passphrase!');
+              return;
+          }
+          var plainHTML = CryptoJS.AES.decrypt(encryptedHTML, passphrase).toString(CryptoJS.enc.Utf8);
+          document.write(plainHTML);
+          document.close();
+      });
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ "/assets/js/main.js" | prepend: site.baseurl}}"></script>
+    {% if page.layout == 'home' %}<script type="text/javascript" src="{{ "/assets/js/home.js" | prepend: site.baseurl}}"></script>{% endif %}
+ </body>
 
-</section>
-
-{% if jekyll.environment == "production" %}
-  {crypto_tag}
-{% endif %}
-
-<script>
-  document.getElementById('staticrypt-form').addEventListener('submit', function(e) {
-      e.preventDefault();
-      var passphrase = document.getElementById('staticrypt-password').value,
-          encryptedMsg = '{encrypted}',
-          encryptedHMAC = encryptedMsg.substring(0, 64),
-          encryptedHTML = encryptedMsg.substring(64),
-          decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
-      if (decryptedHMAC !== encryptedHMAC) {
-          alert('Bad passphrase!');
-          return;
-      }
-      var plainHTML = CryptoJS.AES.decrypt(encryptedHTML, passphrase).toString(CryptoJS.enc.Utf8);
-      document.write(plainHTML);
-      document.close();
-  });
-</script>
+</html>
