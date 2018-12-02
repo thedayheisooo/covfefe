@@ -98,13 +98,15 @@ section#buy {
     .slick-slide div,
     .slick-slide div div,
     .slick-list {
-      height: 100%;
+      max-height: 100%;
+      //overflow: hidden;
     }
     .slick-track {
       @include display_flex;
     }
     .product_image {
       overflow: hidden;
+      height: 500px;
     }
     img {
       width: 100%;
@@ -117,6 +119,8 @@ section#buy {
       @include display_flex;
       @include justify-content(center);
       margin: 10px 0;
+      position: absolute;
+      width: 100%;
       li {
         width: 25px;
         background: $blue;
