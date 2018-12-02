@@ -26,8 +26,8 @@
 
             <hr class="ooo_hr">
 
-            <form id="staticrypt-form" action="#" method="post">
-                <input id="staticrypt-password"
+            <form id="ooo-encrypt-form" action="#" method="post">
+                <input id="ooo-encrypt-password"
                        type="password"
                        name="password"
                        placeholder="passphrase"
@@ -45,9 +45,9 @@
     {% endif %}
 
     <script>
-      document.getElementById('staticrypt-form').addEventListener('submit', function(e) {
+      document.getElementById('ooo-encrypt-form').addEventListener('submit', function(e) {
           e.preventDefault();
-          var passphrase = document.getElementById('staticrypt-password').value,
+          var passphrase = document.getElementById('ooo-encrypt-password').value,
               encryptedMsg = '{encrypted}',
               encryptedHMAC = encryptedMsg.substring(0, 64),
               encryptedHTML = encryptedMsg.substring(64),
