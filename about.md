@@ -1,21 +1,14 @@
 ---
 layout: about
 title: About. Who we are.
-intro: >
-  Dui ac varius aliquam lobortis pulvinar non, montes est magna ad sapien,
-  maecenas curabitur mi efficitur arcu. Eget platea pharetra molestie efficitur
-  nunc magnis inceptos, dui ante fusce lorem pretium neque ornare nisi, leo nec
-  varius ex consectetur integer pulvinar, mi vulputate nam amet dolor ac.
-  Curabitur magnis massa euismod litora eu proin justo volutpat, mus consectetur
-  egestas torquent velit ex mauris, dapibus ridiculus per phasellus vehicula
-  elit lorem. Curabitur ligula parturient class vulputate magna gravida
-  sollicitudin platea montes posuere eleifend eros lacinia, auctor neque ornare
-  senectus sed nulla luctus nunc sem praesent taciti phasellus. Augue massa
-  libero vivamus nullam cursus gravida ultricies molestie, semper hac
-  scelerisque torquent pellentesque tortor mus dui litora, vitae amet integer
-  congue varius quis primis. Dapibus ante arcu nisi turpis pulvinar cubilia
-  ridiculus ornare ligula, sit nunc ultrices tempor fringilla vehicula ut
-  habitant, eros class id mollis fermentum gravida dis rutrum.
+intro: >-
+  We thought long about adding this section to our website because actually we
+  are just random people who want to fight the maniac! Most of us are socialists
+  (trigger alarm!), liberal, people with common sense, snowflakes ... or however
+  you want to call it. But we as collective do not care about political views as
+  long as they are based on facts and science and yes, this can totally include
+  conservatives and libertarians. The lowest common denominator is that we are
+  mad as fuck about Trump.
 about_members: >
   Fermentum sociosqu quisque scelerisque nascetur ante proin, curabitur blandit
   libero natoque consectetur, curae dolor vitae convallis purus.
