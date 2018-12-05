@@ -8,19 +8,21 @@ intro:
         What do you think will happen when the Trump is OOO news breaks?
         Exactly! Millions will celebrate, and 9,874 of them will have a drink
         together.
-      title: people got their ooo-drink prepared
+      title: people got their ooo-drink prepared (counter is not active yet)
     - number: '29,622'
       text: >
         We all want the party happen as soon as possible and therefore  we
         support organizations who fight all Trump stands for. Every OOO-LABEL
         will contribute 3$ to those organizations – scroll down to get your
         label.
-      title: Have been raised to get the party started asap
+      title: >-
+        Have been raised to get the party started asap (counter is not active
+        yet)
   reasons:
     - Seeing the bottle will be your daily boost of motivation to keep fighting.
     - >-
-      You contribute $3 to organizations which are fighting for our democracy
-      and freedom.
+      You contribute money to organizations which are fighting for our democracy
+      and freedom #bluewave.
   text: >-
     Exactly – getting a drink ready to celebrate his final day in office is
     powerful for two reasons.
