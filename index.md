@@ -28,9 +28,10 @@ intro:
     powerful for two reasons.
   title: A beer label to get him OOO?
 3way:
-  intro: >
-    Ornare pharetra vitae primis sed malesuada vulputate, amet velit varius
-    integer efficitur dignissim, penatibus bibendum etiam tristique laoreet.
+  intro: >-
+    You have your drink for the big day prepared and now you are sitting on your
+    couch waiting for the news that he is finally #ooo? Don't! Get up and do
+    something, we have some ideas for you.
   title: 3 ways to get the party started
   ways:
     - button:
