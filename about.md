@@ -3,15 +3,18 @@ layout: about
 title: About. Who we are.
 intro: >-
   We thought long about adding this section to our website because actually we
-  are just random people who want to fight the maniac! Most of us are socialists
-  (trigger alarm!), liberal, people with common sense, snowflakes ... or however
-  you want to call it. But we as collective do not care about political views as
-  long as they are based on facts and science and yes, this can totally include
-  conservatives and libertarians. The lowest common denominator is that we are
-  mad as fuck about Trump.
-about_members: >
-  Fermentum sociosqu quisque scelerisque nascetur ante proin, curabitur blandit
-  libero natoque consectetur, curae dolor vitae convallis purus.
+  are just random people who want to fight the maniac! Most of us are either
+  socialists (trigger alarm!), liberal, people with common sense, snowflakes ...
+  or all of the above. In other words: The team behind is projects consists of
+  people who stand on the right side of history. But we as collective do not
+  care about ones political views as long as they are based on facts and science
+  and yes, this can totally include conservatives and libertarians. The lowest
+  common denominator is that we are mad as fuck about Trump.
+about_members: >-
+  This is a little side project of a diverse team of volunteers. Don't forget:
+  This is all about the movement and not about us! However, in case you have
+  serious trust issues it might help you to see some of the beutiful faces
+  behind the the project.
 members:
   - about: >
       Ligula ante et malesuada mus rhoncus aptent finibus eget, senectus posuere
