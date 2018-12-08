@@ -84,9 +84,8 @@ quote:
   content: I liked beer. I still like beer.
   date: 'Sep. 27, 2018'
   desc: >-
-    Associate Justice of the Supreme Court of the United States, highly
-    emotional 'gentleman' and man who — among other "things“ — apparently likes
-    beer.
+    Associate Justice of the Supreme Court of the United States and highly
+    emotional 'gentleman' who — among other "things“ — apparently likes beer.
 shop_intro: >-
   This is where the magic happens. Where our products are sold and where you can
   make a difference. All of our products will contribute to an organisation of
