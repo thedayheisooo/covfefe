@@ -21,8 +21,8 @@ intro:
   reasons:
     - Seeing the bottle will be your daily boost of motivation to keep fighting.
     - >-
-      You contribute money to organizations which are fighting for our democracy
-      and freedom #bluewave.
+      You contribute money to "blue wave" organizations which are fighting for
+      our democracy and freedom.
   text: >-
     Exactly – getting a drink ready to celebrate his final day in office is
     powerful for two reasons.
