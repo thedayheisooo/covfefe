@@ -5,8 +5,10 @@ main:
     url: /about/
   # - name: Donate & Buy
   #   url: /donate/
-  - name: Join the movement
-    url: /get_involved/
+  # - name: Join the movement
+  #   url: /get_involved/
+  - name: FAQ
+    url: '/#faq'
   - name: buy
     url: /#buy
 
@@ -20,9 +22,12 @@ mobile:
   # - name: Donate
   #   url: /donate/
   #   icon: donate
-  - name: Join
-    url: /get_involved/
-    icon: join
+  # - name: Join
+  #   url: /get_involved/
+  #   icon: join
+  - name: FAQ
+    url: '/#faq'
+    icon: faq
   - name: Buy
     url: '/#buy'
     icon: buy
