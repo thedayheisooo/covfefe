@@ -49,8 +49,9 @@ intro:
       content: >-
         Plenty of organizations are out there fighting for our freedom! Support
         them – we provide you with an overview of organizations you can give
-        money to or support in a more active way (see #1). By getting an
-        OOO-drink you will donate 5$ to such organizations.
+        money to or support in a more active way (see #1). We are currently
+        talking to various organizations to identify who we want to collaborate
+        with.
       number: '2'
       pending: false
       title: donate
