@@ -26,7 +26,7 @@ members:
       email: /test
       linkedin: /test
       twitter: /test
-    name: Steve Jobs
+    name: Adam
     position: CEO
   - about: >
       Nostra lectus risus dolor sollicitudin porttitor tellus fames, diam leo
