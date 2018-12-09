@@ -37,5 +37,10 @@ members:
       twitter: ''
     name: Brian
     position: CTO
+  - about: I am the guy connecting ...
+    contact:
+      email: daniel@thedayheisooo.com
+    name: Dan
+    position: NGO Relations
 ---
 
