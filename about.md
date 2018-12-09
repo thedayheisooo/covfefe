@@ -23,30 +23,19 @@ members:
       twitter: ''
     name: Adam
     position: CEO
-  - about: >
-      Nostra lectus risus dolor sollicitudin porttitor tellus fames, diam leo
-      ornare donec torquent massa. Egestas hendrerit libero hac platea odio
-      varius consectetur elementum quisque curabitur dictum, habitasse quam
-      dictumst in vitae maecenas nunc conubia ex per, duis eros at facilisis
-      nulla feugiat massa aliquet taciti magna.
-    name: Steven Ballmer
-    position: I am Microsoft
-  - about: >
-      Dignissim volutpat nisl ac a commodo taciti parturient, lobortis molestie
-      congue eros luctus aliquam, curae dictum tortor arcu bibendum aenean. Mi
-      gravida nulla donec magna nec maximus integer taciti vivamus finibus,
-      laoreet netus suscipit dis velit curabitur a ad augue ut ipsum, nunc
-      faucibus nostra efficitur turpis metus tortor maecenas orci. Dignissim
-      volutpat nisl ac a commodo taciti parturient, lobortis molestie congue
-      eros luctus aliquam, curae dictum tortor arcu bibendum aenean. Mi gravida
-      nulla donec magna nec maximus integer taciti vivamus finibus, laoreet
-      netus suscipit dis velit curabitur a ad augue ut ipsum, nunc faucibus
-      nostra efficitur turpis metus tortor maecenas orci.
+  - about: My number one reason I dislike Trump ...
     contact:
-      email: /test
-      linkedin: /test
-      twitter: /test
-    name: Mark Zuckerberg
-    position: I'm CEO Bitch
+      email: eli@thedayheisooo.com
+    name: Eli
+    position: Head of Communications
+  - about: >-
+      The day he is out of office I will have only one beer so I can make sure
+      our servers don't crash! But then again ...
+    contact:
+      email: bastian@thedayheisooo.com
+      linkedin: ''
+      twitter: ''
+    name: Brian
+    position: CTO
 ---
 
