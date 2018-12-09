@@ -16,16 +16,11 @@ about_members: >-
   serious trust issues it might help you to see some of the beutiful faces
   behind the the project.
 members:
-  - about: >
-      Ligula ante et malesuada mus rhoncus aptent finibus eget, senectus posuere
-      viverra fringilla molestie aliquam bibendum, dapibus lobortis magna
-      elementum euismod sollicitudin praesent. Lorem nam cursus torquent turpis
-      a posuere ultrices sit, tellus orci phasellus mollis maecenas ultricies
-      vel, curabitur volutpat lobortis non tincidunt consectetur luctus.
+  - about: 'Hi there, I am Adam and ...'
     contact:
-      email: /test
-      linkedin: /test
-      twitter: /test
+      email: aron@thedayheisooo.com
+      linkedin: ''
+      twitter: ''
     name: Adam
     position: CEO
   - about: >
