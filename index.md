@@ -43,7 +43,7 @@ intro:
       number: '1'
       title: engage
     - button:
-        text: comming soon
+        text: Contact us
         url: /
       content: >-
         Plenty of organizations are out there fighting for our freedom! Support
@@ -52,7 +52,7 @@ intro:
         talking to various organizations to identify who we want to collaborate
         with.
       number: '2'
-      pending: false
+      pending: true
       title: donate
     - button:
         text: Contact us
@@ -90,4 +90,3 @@ shop_intro: >-
   make a difference. All of our products will contribute to an organisation of
   you choice — if you decide to buy. <br> Let‘s start makin' some changes.
 ---
-

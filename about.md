@@ -19,8 +19,6 @@ members:
   - about: 'Hi there, I am Adam and ...'
     contact:
       email: aron@thedayheisooo.com
-      linkedin: ''
-      twitter: ''
     img: /assets/images/media_library/adam.jpg
     name: Adam
     position: CEO
@@ -34,8 +32,6 @@ members:
       our servers don't crash! But then again ...
     contact:
       email: bastian@thedayheisooo.com
-      linkedin: ''
-      twitter: ''
     name: Brian
     position: CTO
   - about: I am the guy connecting ...
@@ -44,4 +40,3 @@ members:
     name: Dan
     position: NGO Relations
 ---
-
