@@ -2,14 +2,25 @@
 layout: about
 title: About. Who we are.
 intro: >-
-  We thought long about adding this section to our website because actually we
-  are just random people who want to fight the maniac! Most of us are either
-  socialists (trigger alarm!), liberal, people with common sense, snowflakes ...
-  or all of the above. In other words: The team behind is projects consists of
-  people who stand on the right side of history. But we as collective do not
-  care about ones political views as long as they are based on facts and science
-  and yes, this can totally include conservatives and libertarians. The lowest
-  common denominator is that we are mad as fuck about Trump.
+  We thought long about adding this section to our website because we are just a
+  pretty random group of people who want to fight the maniac and everything he
+  stands for, but we don’t want to make any of this about us. However, we came
+  to understand that even though we don’t take ourselves very seriously you care
+  about the team, so you can be assured you get a good product and part of your
+  money goes to organizations you support. 
+
+
+  So here is the short story about “The Day He is Out Of Office” – we will try
+  not to be sarcastic for once. The project or rather the idea for it began in
+  the weeks after the 2016 election. We were deeply troubled by what happened,
+  we were scared of Trump’s dangerous agenda and we were mad about the rigged
+  system and the worst of it: We felt powerless. But we quickly learned that
+  thanks to Trump hundred of thousands of concerned Americans woke up and came
+  together to organize and resist – this gave us hope and made us think about
+  ways we can support the resistance. 
+
+
+  On top of that we were sure that Trump won’t even make it
 about_members: >-
   This is a little side project of a diverse team of volunteers. Don't forget:
   This is all about the movement and not about us! However, in case you have
@@ -19,7 +30,6 @@ members:
   - about: 'Hi there, I am Adam and ...'
     contact:
       email: aron@thedayheisooo.com
-    img: /assets/images/media_library/adam.jpg
     name: Adam
     position: CEO
   - about: My number one reason I dislike Trump ...
@@ -40,3 +50,4 @@ members:
     name: Dan
     position: NGO Relations
 ---
+
