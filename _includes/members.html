@@ -7,7 +7,7 @@
         <div class="card__logo">
           {% include svg/ooo_logo.html %}
         </div>
-        <img src="{% if member.img %}{{ member.img | prepend: site.baseurl }}{% else %}{{ "/assets/images/dev/placeholder.jpg" | prepend: site.baseurl }}{% endif %}" alt="">
+        <img src="{% if member.img %}{{ member.img }}{% else %}{{ "/assets/images/dev/placeholder.jpg" | prepend: site.baseurl }}{% endif %}" alt="{{ member.name }}">
         <div class="card__content">
           <p class="position">{{ member.position }}</p>
           <h3>{{ member.name }}</h3>
