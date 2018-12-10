@@ -106,7 +106,7 @@ collections:
               - { label: Name, name: name, widget: string, default: true }
               - { label: Position, name: position, widget: string }
               - { label: About, name: about, widget: markdown }
-              - { label: Profile Picture, name: image, widget: image }
+              - { label: Profile Picture, name: img, widget: image }
               - label: 'Contact'
                 name: 'contact'
                 widget: 'object'
