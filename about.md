@@ -21,6 +21,7 @@ members:
       email: aron@thedayheisooo.com
       linkedin: ''
       twitter: ''
+    img: /assets/images/media_library/adam.jpg
     name: Adam
     position: CEO
   - about: My number one reason I dislike Trump ...
@@ -43,3 +44,4 @@ members:
     name: Dan
     position: NGO Relations
 ---
+
