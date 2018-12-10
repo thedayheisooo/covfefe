@@ -16,42 +16,31 @@ about_members: >-
   serious trust issues it might help you to see some of the beutiful faces
   behind the the project.
 members:
-  - about: >
-      Ligula ante et malesuada mus rhoncus aptent finibus eget, senectus posuere
-      viverra fringilla molestie aliquam bibendum, dapibus lobortis magna
-      elementum euismod sollicitudin praesent. Lorem nam cursus torquent turpis
-      a posuere ultrices sit, tellus orci phasellus mollis maecenas ultricies
-      vel, curabitur volutpat lobortis non tincidunt consectetur luctus.
+  - about: 'Hi there, I am Adam and ...'
     contact:
-      email: /test
-      linkedin: /test
-      twitter: /test
-    name: Steve Jobs
+      email: aron@thedayheisooo.com
+      linkedin: ''
+      twitter: ''
+    name: Adam
     position: CEO
-  - about: >
-      Nostra lectus risus dolor sollicitudin porttitor tellus fames, diam leo
-      ornare donec torquent massa. Egestas hendrerit libero hac platea odio
-      varius consectetur elementum quisque curabitur dictum, habitasse quam
-      dictumst in vitae maecenas nunc conubia ex per, duis eros at facilisis
-      nulla feugiat massa aliquet taciti magna.
-    name: Steven Ballmer
-    position: I am Microsoft
-  - about: >
-      Dignissim volutpat nisl ac a commodo taciti parturient, lobortis molestie
-      congue eros luctus aliquam, curae dictum tortor arcu bibendum aenean. Mi
-      gravida nulla donec magna nec maximus integer taciti vivamus finibus,
-      laoreet netus suscipit dis velit curabitur a ad augue ut ipsum, nunc
-      faucibus nostra efficitur turpis metus tortor maecenas orci. Dignissim
-      volutpat nisl ac a commodo taciti parturient, lobortis molestie congue
-      eros luctus aliquam, curae dictum tortor arcu bibendum aenean. Mi gravida
-      nulla donec magna nec maximus integer taciti vivamus finibus, laoreet
-      netus suscipit dis velit curabitur a ad augue ut ipsum, nunc faucibus
-      nostra efficitur turpis metus tortor maecenas orci.
+  - about: My number one reason I dislike Trump ...
     contact:
-      email: /test
-      linkedin: /test
-      twitter: /test
-    name: Mark Zuckerberg
-    position: I'm CEO Bitch
+      email: eli@thedayheisooo.com
+    name: Eli
+    position: Head of Communications
+  - about: >-
+      The day he is out of office I will have only one beer so I can make sure
+      our servers don't crash! But then again ...
+    contact:
+      email: bastian@thedayheisooo.com
+      linkedin: ''
+      twitter: ''
+    name: Brian
+    position: CTO
+  - about: I am the guy connecting ...
+    contact:
+      email: daniel@thedayheisooo.com
+    name: Dan
+    position: NGO Relations
 ---
 

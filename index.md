@@ -10,11 +10,10 @@ intro:
         together.
       title: people got their ooo-drink prepared (counter is not active yet)
     - number: '29,622'
-      text: >
+      text: >-
         We all want the party happen as soon as possible and therefore  we
         support organizations who fight all Trump stands for. Every OOO-LABEL
-        will contribute 3$ to those organizations – scroll down to get your
-        label.
+        will contribute to those organizations – scroll down to get your label.
       title: >-
         Have been raised to get the party started asap (counter is not active
         yet)
