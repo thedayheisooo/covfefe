@@ -57,9 +57,16 @@ members:
     img: /assets/images/media_library/adam.jpg
     name: Adam
     position: CEO
-  - about: ''
+  - about: >-
+      Is there something Trump hates more than a strong liberal woman? Yes, if
+      she is a journalist on top of it! Just like the rest on the team she knows
+      what she will be doing the day he is #ooo … unfortunately she will have to
+      work and stay sober to report the latest developments to us. Thanks for
+      your service Eli – we will celebrate you and all the fellow journalists on
+      the big day :)
     contact:
       email: eli@thedayheisooo.com
+    img: /assets/images/media_library/eli.png
     name: Eli
     position: Head of Communications
   - about: >-
