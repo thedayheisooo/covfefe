@@ -47,17 +47,6 @@ about_members: >-
   behind the the project.
 members:
   - about: >-
-      Adam was so mad about Trump that he dumped a side project he was working
-      on so he has a couple of hours each weekend to work on thedayheisooo.com.
-      He even offered to take the lead with all the legal crap we have to do
-      just to sell some stickers – CEO is therefore not a made up startup
-      bullshit bingo title, he is the C.E.O. of the TinyHands Ltd.* hell yeah!
-    contact:
-      email: aron@thedayheisooo.com
-    img: /assets/images/media_library/adam.jpg
-    name: Adam
-    position: CEO
-  - about: >-
       Is there something Trump hates more than a strong liberal woman? Yes, if
       she is a journalist on top of it! Just like the rest on the team she knows
       what she will be doing the day he is #ooo … unfortunately she will have to
@@ -70,15 +59,35 @@ members:
     name: Eli
     position: Head of Communications
   - about: >-
-      The day he is out of office I will have only one beer so I can make sure
-      our servers don't crash! But then again ...
+      Adam was so mad about Trump that he dumped a side project he was working
+      on so he has a couple of hours each weekend to work on thedayheisooo.com.
+      He even offered to take the lead with all the legal crap we have to do
+      just to sell some stickers – CEO is therefore not a made up startup
+      bullshit bingo title, he is the C.E.O. of the TinyHands Ltd.* hell yeah!
+    contact:
+      email: aron@thedayheisooo.com
+    img: /assets/images/media_library/adam.jpg
+    name: Adam
+    position: CEO
+  - about: >-
+      Brian is one of the shy IT guys and the reason everything here looks as
+      awesome as it does and runs smoothly. The day he is out of office he will
+      have only one beer so he can make sure our servers don't crash! Just
+      kidding ... who cares about servers that day?
     contact:
       email: bastian@thedayheisooo.com
+    img: /assets/images/media_library/brian-ooo.png
     name: Brian
     position: CTO
-  - about: I am the guy connecting ...
+  - about: >-
+      In summary Dan already lost 220 bucks betting that Trump will be #ooo by
+      certain dates. He says he does not care about it but we are sure: When
+      Trump is gone Dan will be mainly celebreating the fact that he won't lose
+      any more bets. At least he promised us to stop betting with Republicans
+      and focus more on connecting us with all the organizations out there.
     contact:
       email: daniel@thedayheisooo.com
+    img: /assets/images/media_library/daniel-ooo.png
     name: Dan
     position: NGO Relations
 ---
