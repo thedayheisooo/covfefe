@@ -46,7 +46,11 @@ about_members: >-
   serious trust issues it might help you to see some of the beutiful faces
   behind the the project.
 members:
-  - about: 'Hi there, I am Adam and ...'
+  - about: >-
+      Adam is a great example for the one thing Trump was good for: Now
+      everybody cares about politics more than ever before. In Adams case even
+      so much that he dumped a side project he was working on to take every
+      weekend a couple of hours time to work on thedayheisooo.com.
     contact:
       email: aron@thedayheisooo.com
     name: Adam
