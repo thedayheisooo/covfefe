@@ -6,7 +6,7 @@ intro: >-
   pretty random group of people and we don’t want to make any of this about us.
   However, we came to understand that even though we don’t take ourselves very
   seriously many of you care about the team as you want be assured you get a
-  good product and part of your money goes to organizations you support. <br>
+  good product and part of your money goes to organizations you support. 
 
 
   So here is the short story about “The Day He is Out Of Office” – we will try
@@ -18,9 +18,22 @@ intro: >-
   together to organize and resist – this gave us hope and made us think about
   ways we can support the resistance. There are so many great non-profit
   organizations out there that it was clear to us, that the US does not need
-  another one. Instead we could raise money for the existing organizations in a
-  smart way – after all product development and creating campaigns are part of
-  our daily business anyway.
+  another one. Instead we could raise money for the already existing
+  organizations in a smart way – after all product development and creating
+  campaigns are part of our daily business anyway. 
+
+
+  And then there was the bottle of Champain Dan bought in 2017. He confidently
+  told all of us: “I am telling you: Trump is dumb as a rock, acts against the
+  interest of his own base and he is a criminal. There is no way he will still
+  be president one year from now and as soon as he is out we will all meet to
+  pop this bottle. And then we will hit the street of NYC to celebrate with all
+  the other people. Until then this bottle is my reminder that we will win
+  eventually – I call it my ooo bottle.”. Adam joked around about how Dan should
+  produce a special drink just for this day, kind of like the iconic cigars they
+  had in the movie Independence Day which were only to be smoked after the
+  victory over the evil thread to the US and the whole world. And then it
+  clicked …
 about_members: >-
   This is a little side project of a diverse team of volunteers. Don't forget:
   This is all about the movement and not about us! However, in case you have
