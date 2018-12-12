@@ -47,12 +47,14 @@ about_members: >-
   behind the the project.
 members:
   - about: >-
-      Adam is a great example for the one thing Trump was good for: Now
-      everybody cares about politics more than ever before. In Adams case even
-      so much that he dumped a side project he was working on to take every
-      weekend a couple of hours time to work on thedayheisooo.com.
+      Trump was so mad about Trump that he dumped a side project he was working
+      on so he has a couple of hours each weekend to work on thedayheisooo.com.
+      He even offered to take the lead with all the legal crap we have to do
+      just to sell some stickers – CEO is therefore not a made up startup
+      bullshit bingo title, he is the C.E.O. of the TinyHands Ltd.* hell yeah!
     contact:
       email: aron@thedayheisooo.com
+    img: /assets/images/media_library/adam.jpg
     name: Adam
     position: CEO
   - about: My number one reason I dislike Trump ...
