@@ -47,7 +47,7 @@ about_members: >-
   behind the the project.
 members:
   - about: >-
-      Trump was so mad about Trump that he dumped a side project he was working
+      Adam was so mad about Trump that he dumped a side project he was working
       on so he has a couple of hours each weekend to work on thedayheisooo.com.
       He even offered to take the lead with all the legal crap we have to do
       just to sell some stickers – CEO is therefore not a made up startup
@@ -57,7 +57,7 @@ members:
     img: /assets/images/media_library/adam.jpg
     name: Adam
     position: CEO
-  - about: My number one reason I dislike Trump ...
+  - about: ''
     contact:
       email: eli@thedayheisooo.com
     name: Eli
