@@ -9,6 +9,9 @@ intro: >-
   good product and part of your money goes to organizations you support. 
 
 
+  <br>
+
+
   So here is the short story about “The Day He is Out Of Office” – we will try
   not to be sarcastic for once. The project or rather the idea for it began in
   the weeks after the 2016 election. We were deeply troubled by what happened,
@@ -21,6 +24,9 @@ intro: >-
   another one. Instead we could raise money for the already existing
   organizations in a smart way – after all product development and creating
   campaigns are part of our daily business anyway. 
+
+
+  <br>
 
 
   And then there was the bottle of Champain Dan bought in 2017. He confidently
