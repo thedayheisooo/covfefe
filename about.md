@@ -3,11 +3,10 @@ layout: about
 title: About. Who we are.
 intro: >-
   We thought long about adding this section to our website because we are just a
-  pretty random group of people who want to fight the maniac and everything he
-  stands for, but we don’t want to make any of this about us. However, we came
-  to understand that even though we don’t take ourselves very seriously you care
-  about the team, so you can be assured you get a good product and part of your
-  money goes to organizations you support. 
+  pretty random group of people and we don’t want to make any of this about us.
+  However, we came to understand that even though we don’t take ourselves very
+  seriously many of you care about the team as you want be assured you get a
+  good product and part of your money goes to organizations you support. <br>
 
 
   So here is the short story about “The Day He is Out Of Office” – we will try
@@ -15,12 +14,13 @@ intro: >-
   the weeks after the 2016 election. We were deeply troubled by what happened,
   we were scared of Trump’s dangerous agenda and we were mad about the rigged
   system and the worst of it: We felt powerless. But we quickly learned that
-  thanks to Trump hundred of thousands of concerned Americans woke up and came
+  thanks to Trump hundreds of thousands of concerned Americans woke up and came
   together to organize and resist – this gave us hope and made us think about
-  ways we can support the resistance. 
-
-
-  On top of that we were sure that Trump won’t even make it
+  ways we can support the resistance. There are so many great non-profit
+  organizations out there that it was clear to us, that the US does not need
+  another one. Instead we could raise money for the existing organizations in a
+  smart way – after all product development and creating campaigns are part of
+  our daily business anyway.
 about_members: >-
   This is a little side project of a diverse team of volunteers. Don't forget:
   This is all about the movement and not about us! However, in case you have
