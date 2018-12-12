@@ -39,7 +39,7 @@ intro: >-
   produce a special drink just for this day, kind of like the iconic cigars they
   had in the movie Independence Day which were only to be smoked after the
   victory over the evil thread to the US and the whole world. And then it
-  clicked …
+  clicked and the rest will be history ...
 about_members: >-
   This is a little side project of a diverse team of volunteers. Don't forget:
   This is all about the movement and not about us! However, in case you have
