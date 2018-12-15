@@ -95,8 +95,10 @@ members:
       You have lots of motivation, a couple of hours time every week to work pro
       bono and some skills in law, social media, e-commerce, campaign
       management, etc.? Great - as long as your biggest skill is disagreeing
-      with everything Trump stands for we should talk! Just write us on twitter
-      and we will get in touch!
+      with everything Trump stands for we should talk! Click on the email button
+      and shot Dan an a quick message.
+    contact:
+      email: daniel@thedayheisooo.com
     img: /assets/images/media_library/confetti-guy.png
     name: You?
     position: Chief Whatever Officer
