@@ -24,6 +24,7 @@
       <p>{{ product.description | markdownify }}</p>
       <p class="price">{{ product.currency }} {{ product.price }} <span class="small">(excl. VAT)</span> </p>
       <a href="#" class="btn{% if product.active == false %} inactive{% endif %}">{{ product.button_text }}</a>
+      {% include _shopify.html %}
     </div>
   </div>
 </section>
