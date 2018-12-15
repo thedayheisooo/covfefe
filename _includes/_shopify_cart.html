@@ -29,81 +29,8 @@
         });
 
         ShopifyBuy.UI.onReady(client).then(function (ui) {
-          ui.createComponent('product', {
-            id: [1522377261117],
-            node: document.getElementById('product-component-f85b73d1b35'),
-            moneyFormat: '%24%7B%7Bamount%7D%7D',
+          ui.createCart({
             options: {
-              "product": {
-                "variantId": "all",
-                "width": "240px",
-                "contents": {
-                  "img": false,
-                  "imgWithCarousel": false,
-                  "title": false,
-                  "variantTitle": false,
-                  "price": false,
-                  "description": false,
-                  "buttonWithQuantity": false,
-                  "quantity": false
-                },
-                "styles": {
-                  "product": {
-                    "text-align": "left",
-                    "@media (min-width: 601px)": {
-                      "max-width": "100%",
-                      "margin-left": "0",
-                      "margin-bottom": "50px"
-                    }
-                  },
-                  "button": {
-                    "background-color": "#f05064",
-                    "font-family": "Roboto, sans-serif",
-                    ":hover": {
-                      "background-color": "#d8485a"
-                    },
-                    ":focus": {
-                      "background-color": "#d8485a"
-                    },
-                    "font-weight": "bold"
-                  },
-                  "variantTitle": {
-                    "font-family": "Roboto, sans-serif",
-                    "color": "#4455bb",
-                    "font-weight": "normal"
-                  },
-                  "title": {
-                    "font-family": "Roboto, sans-serif",
-                    "font-size": "26px",
-                    "color": "#4455bb"
-                  },
-                  "description": {
-                    "color": "#4455bb",
-                    "font-family": "Roboto, sans-serif",
-                    "font-weight": "normal"
-                  },
-                  "price": {
-                    "font-family": "Roboto, sans-serif",
-                    "font-size": "18px",
-                    "color": "#4455bb",
-                    "font-weight": "normal"
-                  },
-                  "compareAt": {
-                    "font-size": "15px",
-                    "font-family": "Roboto, sans-serif",
-                    "font-weight": "normal",
-                    "color": "#4455bb"
-                  }
-                },
-                "googleFonts": [
-                  "Roboto",
-                  "Roboto",
-                  "Roboto",
-                  "Roboto",
-                  "Roboto",
-                  "Roboto"
-                ]
-              },
               "cart": {
                 "contents": {
                   "button": true

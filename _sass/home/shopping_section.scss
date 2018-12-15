@@ -12,10 +12,12 @@ section#buy {
   .btn {
     display: inline-block;
   }
-  p.price {
+  .price {
     font-weight: 700;
     margin-top: 15px;
     font-size: 1.6rem;
+    font-family: $main;
+    color: $blue;
     .small {
       font-size: .7em;
     }
@@ -153,4 +155,168 @@ section#buy {
     margin-bottom: 0;
   };
 
+}
+
+
+// SHOPIFY
+.shopify-buy__layout-vertical .shopify-buy__product__variant-selectors {
+    width: 100%;
+    max-width: 280px;
+    display: inline-block;
+}
+
+.shopify-buy__product__variant-selectors {
+    text-align: left;
+    font-size: 14px;
+}
+
+.shopify-buy__option-select__label {
+    display: block;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.visuallyhidden {
+    border: 0;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.shopify-buy__option-select-wrapper {
+    border: 1px solid #d3dbe2;
+    border-radius: 3px;
+    box-sizing: border-box;
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+    vertical-align: bottom;
+    font-family: $main;
+}
+
+.shopify-buy__select-icon {
+    cursor: pointer;
+    display: block;
+    fill: #798c9c;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -6px;
+    pointer-events: none;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+}
+
+.shopify-buy__option-select__select {
+  font-size: inherit;
+  padding: 7px 10px;
+  padding-right: 32px;
+  border: 0;
+  width: 100%;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.shopify-buy__layout-vertical .shopify-buy__btn, .shopify-buy__layout-vertical .shopify-buy__quantity-container, .shopify-buy__layout-horizontal .shopify-buy__btn, .shopify-buy__layout-horizontal .shopify-buy__quantity-container {
+    margin: 20px auto 0;
+}
+
+.shopify-buy__quantity-container.shopify-buy__quantity-with-btns {
+    overflow: hidden;
+}
+
+.shopify-buy__quantity-increment, .shopify-buy__quantity-decrement {
+    border-color: #d3dbe2;
+    line-height: 1.2;
+    font-size: 15px;
+    height: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.shopify-buy__quantity-decrement {
+    border-radius: 3px 0 0 3px;
+}
+
+.shopify-buy__quantity-increment {
+    border-radius: 0 3px 3px 0;
+}
+
+.shopify-buy__quantity-decrement, .shopify-buy__quantity-increment {
+    color: #4c4c4c;
+    display: block;
+    height: 30px;
+    float: left;
+    line-height: 16px;
+    font-family: monospace;
+    width: 26px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: 1px solid #767676;
+    position: relative;
+}
+
+.shopify-buy__quantity {
+    color: black;
+    width: 45px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    font-family: $main;
+    text-align: center;
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+    display: inline-block;
+    padding: 0;
+    border-radius: 0;
+    border-top: 1px solid #767676;
+    border-bottom: 1px solid #767676;
+}
+
+.shopify-buy__quantity, .shopify-buy__quantity-increment, .shopify-buy__quantity-decrement {
+    border-color: #d3dbe2;
+    line-height: 1.2;
+    font-size: 15px;
+    height: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.shopify-buy__quantity-container.shopify-buy__quantity-with-btns .shopify-buy__quantity {
+    border-left: 0;
+    border-right: 0;
+    float: left;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: textfield;
+  margin: 0;
+}
+button {
+  border: none;
+}
+
+.shopify-buy__layout-vertical .shopify-buy__btn, .shopify-buy__layout-horizontal .shopify-buy__btn, .shopify-buy__product__variant-selectors {
+  margin: 10px 0 auto;
+}
+
+.shopify-buy__layout-vertical .shopify-buy__quantity-container, .shopify-buy__layout-horizontal .shopify-buy__quantity-container {
+  margin: 20px 0 auto;
+}
+
+.shopify-buy-frame--product  {
+  margin-top: 20px;
 }
