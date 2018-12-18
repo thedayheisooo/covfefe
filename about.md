@@ -56,7 +56,7 @@ members:
       the big day :)
     contact:
       email: eli@thedayheisooo.com
-    img: ''
+    img: /assets/images/media_library/eliii.png
     name: Eli
     position: Head of Communications
   - about: >-
