@@ -42,16 +42,14 @@ intro:
       number: '1'
       title: engage
     - button:
-        text: Contact us
-        url: /
+        text: Let's do this
+        url: /donate
       content: >-
         Plenty of organizations are out there fighting for our freedom! Support
         them – we provide you with an overview of organizations you can give
-        money to or support in a more active way (see #1). We are currently
-        talking to various organizations to identify who we want to collaborate
-        with.
+        money to or support in a more active way (see #1).
       number: '2'
-      pending: true
+      pending: false
       title: donate
     - button:
         text: Contact us
