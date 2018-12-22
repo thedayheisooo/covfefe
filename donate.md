@@ -8,7 +8,7 @@ intro: >-
   these organizations but this is a bit difficult in some cases (legal stuff).
   So stay tuned until we have figured this out! Once we found a couple of good
   options we will let you vote on how we should use part of the money collected
-  by selling our labels.
+  by selling our labels. Follow us on Twitter to not miss the voting!
 items:
   - action:
       - active: true
