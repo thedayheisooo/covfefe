@@ -14,7 +14,7 @@ intro:
         We all want the #ooo party happen as soon as possible and therefore we
         support projects who fight all Trump stands for. You'll have the chance
         to vote on the projects we'll support - it might be liberal podcast
-        creaters, enviromental organizations, etc. ... Send us you suggestions!
+        creaters, enviromental organizations, etc. ... send us you suggestions!
       title: >-
         Have been raised to get the party started asap (counter is not active
         yet)
