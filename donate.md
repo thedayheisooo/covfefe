@@ -1,6 +1,8 @@
 ---
 layout: chess_view
-title: Where your money goes
+title: >-
+  Even better than buying the #ooo label is giving money to the following
+  organizations
 intro: >
   We don’t have to accept what is going on. If you have some cash to spare, even
   a small amount, there are plenty of organizations you can donate money to – we
