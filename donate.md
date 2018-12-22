@@ -1,12 +1,14 @@
 ---
 layout: chess_view
-title: Where your money goes
-intro: >
+title: Where your money should go
+intro: >-
   We don’t have to accept what is going on. If you have some cash to spare, even
   a small amount, there are plenty of organizations you can donate money to – we
-  list them below. By the way: When you buy our label we will support one of
-  these organizations with $4 – which one is up to you. During the check out
-  process you can pick who you would like to support.
+  list some of them below. By the way: We initially planned to collect money for
+  these organizations but this is a bit difficult in some cases (legal stuff).
+  So stay tuned until we have figured this out! Once we found a couple of good
+  options we will let you vote on how we should use part of the money collected
+  by selling our labels. Follow us on Twitter to not miss the voting!
 items:
   - action:
       - active: true

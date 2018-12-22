@@ -11,17 +11,16 @@ intro:
       title: people got their ooo-drink prepared (counter is not active yet)
     - number: '29,622'
       text: >-
-        We all want the party happen as soon as possible and therefore  we
-        support organizations who fight all Trump stands for. Every OOO-LABEL
-        will contribute to those organizations – scroll down to get your label.
+        We all want the #ooo party happen as soon as possible and therefore we
+        support projects who fight all Trump stands for. You'll have the chance
+        to vote on the projects we'll support - it might be liberal podcast
+        creaters, enviromental organizations, etc. ... send us you suggestions!
       title: >-
         Have been raised to get the party started asap (counter is not active
         yet)
   reasons:
     - Seeing the bottle will be your daily boost of motivation to keep fighting.
-    - >-
-      You contribute money to "blue wave" organizations which are fighting for
-      our democracy and freedom.
+    - 'You contribute money to projects in support of the "blue wave". '
   text: >-
     Exactly – getting a drink ready to celebrate his final day in office is
     powerful for two reasons.
@@ -43,16 +42,14 @@ intro:
       number: '1'
       title: engage
     - button:
-        text: Contact us
-        url: /
+        text: Let's do this
+        url: /donate
       content: >-
         Plenty of organizations are out there fighting for our freedom! Support
         them – we provide you with an overview of organizations you can give
-        money to or support in a more active way (see #1). We are currently
-        talking to various organizations to identify who we want to collaborate
-        with.
+        money to or support in a more active way (see #1).
       number: '2'
-      pending: true
+      pending: false
       title: donate
     - button:
         text: Contact us
@@ -86,9 +83,8 @@ quote:
     Associate Justice of the Supreme Court of the United States and highly
     emotional 'gentleman' who — among other "things“ — apparently likes beer.
 shop_intro: >-
-  This is where the magic happens. Where our products are sold and where you can
-  make a difference. All of our products will contribute to an organisation of
-  you choice — if you decide to buy. <br> Let‘s start makin' some changes.
+  It is easy for you to decide for a product - we only have one! However, more
+  is in the making so stay tuned for champagne & wine labels and more!
 how_to:
   steps:
     - desc: Pick your<br>favorite beer<br>(About 9 in tall).
