@@ -1219,3 +1219,13 @@ main {
     max-width: 400px;
   }
 }
+
+
+.ooo_advisors {
+  .ooo_members__frame {
+    @include align-items(flex-start);
+  }
+  .ooo_card {
+    min-height: unset;
+  }
+}
