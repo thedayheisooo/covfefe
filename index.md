@@ -89,4 +89,20 @@ shop_intro: >-
   This is where the magic happens. Where our products are sold and where you can
   make a difference. All of our products will contribute to an organisation of
   you choice — if you decide to buy. <br> Let‘s start makin' some changes.
+how_to:
+  intro: >
+  steps:
+    - desc: Pick your<br>favorite beer<br>(About 9 in tall).
+      icon: 20180923_step_1.svg
+      x_positioning: '-25%'
+    - desc: Wash off the existing label with soap and water.
+      icon: 20180923_step_2.svg
+      x_positioning: '-25%'
+    - desc: Take the OOO_Label and stick it on the bottle.
+      icon: 20180923_step_3.svg
+    - desc: 'Spread the word by using #ooo! We‘re counting on you.'
+      icon: 20180923_step_4.svg
+      x_positioning: '25%'
+    - desc: Celebrate with the whole world on the day he is OOO.
+      icon: 20180923_step_5.svg
 ---

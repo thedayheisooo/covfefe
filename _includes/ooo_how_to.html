@@ -1,0 +1,16 @@
+<section id="how_to">
+  <!-- <h2>...and get your drink ready</h2>
+  <p class="intro_el">Habitant bibendum consectetur class ex lacinia placerat praesent cursus curae, eleifend ridiculus nam nisl eu auctor finibus vivamus, nibh pellentesque suscipit aliquet tristique laoreet diam viverra. Eleifend lobortis per leo aptent congue non duis, hac faucibus velit feugiat curabitur conubia ultricies, ridiculus penatibus pellentesque vivamus magna mus.</p> -->
+  <div class="how_to__frame">
+    {% for step in page.how_to.steps %}
+      <div class="how_to__step">
+        <div style="transform: translateX({{ step.x_positioning }})" class="how_to__icon">
+          {% include svg/{{ step.icon }} %}
+        </div>
+        <div class="how_to__desc">
+          <p class="balance-text">{{ step.desc }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>

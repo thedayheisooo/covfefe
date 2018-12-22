@@ -1,5 +1,11 @@
 ---
 ---
+
+// balancetext polyfill
+{% include js/balancetext.min.js %}
+//balanceText();
+//
+
 {% include js/jquery.timeago.js %}
 jQuery(document).ready(function() {
   jQuery("time.ooo_ago").timeago();
