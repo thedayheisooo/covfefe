@@ -11,17 +11,16 @@ intro:
       title: people got their ooo-drink prepared (counter is not active yet)
     - number: '29,622'
       text: >-
-        We all want the party happen as soon as possible and therefore  we
-        support organizations who fight all Trump stands for. Every OOO-LABEL
-        will contribute to those organizations – scroll down to get your label.
+        We all want the #ooo party happen as soon as possible and therefore we
+        support projects who fight all Trump stands for. You'll have the chance
+        to vote on the projects we'll support - it might be liberal podcast
+        creaters, enviromental organizations, etc. ... Send us you suggestions!
       title: >-
         Have been raised to get the party started asap (counter is not active
         yet)
   reasons:
     - Seeing the bottle will be your daily boost of motivation to keep fighting.
-    - >-
-      You contribute money to "blue wave" organizations which are fighting for
-      our democracy and freedom.
+    - 'You contribute money to projects in support of the "blue wave". '
   text: >-
     Exactly – getting a drink ready to celebrate his final day in office is
     powerful for two reasons.
@@ -90,3 +89,4 @@ shop_intro: >-
   make a difference. All of our products will contribute to an organisation of
   you choice — if you decide to buy. <br> Let‘s start makin' some changes.
 ---
+
