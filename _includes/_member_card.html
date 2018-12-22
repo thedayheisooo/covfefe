@@ -1,0 +1,22 @@
+<div class="ooo_card">
+  <div class="card__logo">
+    {% include svg/ooo_logo.html %}
+  </div>
+  <img src="{% if member.img %}{{ member.img }}{% else %}{{ "/assets/images/dev/placeholder.jpg" | prepend: site.baseurl }}{% endif %}" alt="{{ member.name }}">
+  <div class="card__content">
+    <p class="position" {% unless member.position %}style="color: white"{% endunless %}>{{ member.position | default: 'Member' }}</p>
+    <h3>{{ member.name }}</h3>
+    <p class="about">{{ member.about }}</p>
+  </div>
+  <div class="contact">
+    {% if member.contact.twitter %}
+      <a href="{{ member.contact.twitter.size > 0 }}"><i class="fab fa-twitter"></i></a>
+    {% endif %}
+    {% if member.contact.email %}
+      <a href="{{ member.contact.email.size > 0 }}"><i class="fas fa-envelope"></i></a>
+    {% endif %}
+    {% if member.contact.linkedin %}
+      <a href="{{ member.contact.linkedin.size > 0 }}"><i class="fab fa-linkedin-in"></i></a>
+    {% endif %}
+  </div>
+</div>

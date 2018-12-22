@@ -7,7 +7,7 @@ intro: >-
   However, we came to understand that even though we don’t take ourselves very
   seriously many of you care about the team behind the project. You want be
   assured you'll get a good product and that we support organizations you can
-  identify with.  
+  identify with.
 
 
   <br>
@@ -24,7 +24,7 @@ intro: >-
   organizations out there that it was clear to us, that the US does not need
   another one. Instead we could raise money for the already existing
   organizations in a smart way – after all product development and creating
-  campaigns is part of our daily business anyway. 
+  campaigns is part of our daily business anyway.
 
 
   <br>
@@ -46,61 +46,5 @@ about_members: >-
   This is all about the movement and not about us! However, in case you have
   serious trust issues it might help you to see some of the beutiful faces
   behind the the project.
-members:
-  - about: >-
-      Is there something Trump hates more than a strong liberal woman? Yes, if
-      she is a journalist on top of it! Just like the rest on the team she knows
-      what she will be doing the day he is #ooo … unfortunately she will have to
-      work and stay sober to report the latest developments to us. Thanks for
-      your service Eli – we will celebrate you and all the fellow journalists on
-      the big day :)
-    contact:
-      email: eli@thedayheisooo.com
-    img: /assets/images/media_library/eliii.png
-    name: Eli
-    position: Head of Communications
-  - about: >-
-      Adam was so mad about Trump that he dumped a side project he was working
-      on so he has a couple of hours each weekend to work on thedayheisooo.com.
-      He even offered to take the lead with all the legal crap we have to do
-      just to sell some stickers – CEO is therefore not a made up startup
-      bullshit bingo title, he is the C.E.O. of the TinyHands Ltd.* hell yeah!
-    contact:
-      email: aron@thedayheisooo.com
-    img: /assets/images/media_library/adam.jpg
-    name: Adam
-    position: CEO
-  - about: >-
-      Brian is one of the shy IT guys and the reason everything here looks as
-      awesome as it does and runs smoothly. The day he is out of office he will
-      have only one beer so he can make sure our servers don't crash! Just
-      kidding ... who cares about servers that day?
-    contact:
-      email: bastian@thedayheisooo.com
-    img: /assets/images/media_library/brian-ooo.png
-    name: Brian
-    position: CTO
-  - about: >-
-      In summary Dan already lost 220 bucks betting that Trump will be #ooo by
-      certain dates. He says he does not care about it but we are sure: When
-      Trump is gone Dan will be mainly celebreating the fact that he won't lose
-      any more bets. At least he promised us to stop betting with Republicans
-      and focus more on connecting us with all the organizations out there.
-    contact:
-      email: daniel@thedayheisooo.com
-    img: /assets/images/media_library/daniel-ooo.png
-    name: Dan
-    position: NGO Relations
-  - about: >-
-      You have lots of motivation, a couple of hours time every week to work pro
-      bono and some skills in law, social media, e-commerce, campaign
-      management, etc.? Great - as long as your biggest skill is disagreeing
-      with everything Trump stands for we should talk! Click on the email button
-      and shot Dan an a quick message.
-    contact:
-      email: daniel@thedayheisooo.com
-    img: /assets/images/media_library/confetti-guy.png
-    name: You?
-    position: Chief Whatever Officer
+about_advisors: >-
 ---
-
