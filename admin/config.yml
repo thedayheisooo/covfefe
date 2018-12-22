@@ -91,6 +91,17 @@ collections:
           - label: 'Shop Intro'
             name: 'shop_intro'
             widget: 'markdown'
+          - label: 'How To'
+            name: 'how_to'
+            widget: 'object'
+            fields:
+              - label: 'Steps'
+                name: 'steps'
+                widget: 'list'
+                fields:
+                  - { label: 'Step Description', name: desc, widget: markdown }
+                  - { label: Step Icon, name: icon, widget: string, hint: Icons have to be placed in the backend manually }
+                  - { label: X-Positioning, name: x_positioning, widget: number, valueType: int, hint: 'This allows to position the object manually along the a x-axis. Values will be translated to percentages.' }
       - name: 'about'
         label: 'About #ooo'
         file: 'about.md'
