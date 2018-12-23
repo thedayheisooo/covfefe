@@ -12,10 +12,12 @@
           <p>{{ item.content | markdownify }}</p>
           {% if item.action %}
             {% for button in item.action %}
-              <a class="btn{% if button.active == false %} inactive {% endif %}{% if button.message %} triangle_init {% endif %}" href="{{ button.link }}">{{ button.title }}</a>
+              {% if button.title.size > 0 %}
+                <a class="btn{% if button.active == false %} inactive {% endif %}{% if button.message %} triangle_init {% endif %}" href="{{ button.link }}">{{ button.title }}</a>
+              {% endif %}
             {% endfor %}
             {% for button in item.action %}
-              {% if button.message %}
+              {% if button.message and button.title > 0 %}
                 <div class="speechbubble">
                   <p class="message">{{ button.message }}</p>
                 </div>

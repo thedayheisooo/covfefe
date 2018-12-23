@@ -20,7 +20,7 @@ items:
           We are currently in touch with this organization to bring them onto
           our donation platform. For now you can of course support them directly
           on their website at any time. Stay tuned for more to come...
-        title: Coming Soon
+        title:
     background_image: /assets/images/media_library/first.jpg
     content: >
       This organization is urging Congress to pass a resolution calling for the
@@ -35,7 +35,7 @@ items:
         title: Donate Directly
       - active: false
         link: /
-        title: Coming Soon
+        title:
     content: >
       Everytown is a movement of Americans working together to end gun violence
       and build safer communities. More than 4 million mayors, moms, cops,
@@ -49,7 +49,7 @@ items:
         title: Donate Directly
       - active: false
         link: /
-        title: Coming Soon
+        title:
     content: >
       The Human Rights Campaign represents a force of more than 3 million
       members and supporters nationwide. As the largest national lesbian, gay,
@@ -63,7 +63,7 @@ items:
         title: Donate Directly
       - active: false
         link: /
-        title: Coming Soon
+        title:
     content: >
       In January 2017 over 3 million people were on the streets all over the US,
       actively protesting pretty much everything Trump stands for and to harness
@@ -80,7 +80,7 @@ items:
       - active: false
         link: /
         message: Life is shizzle!
-        title: Coming Soon
+        title:
     content: >
       There are so many organizations out there to fight climate change – 175+
       unites them in one network. USCAN’s mission is to build trust and
@@ -93,7 +93,7 @@ items:
         title: Donate Directly
       - active: false
         link: /
-        title: Coming Soon
+        title:
     content: >
       MoveOn is a platform where a wide range of different political (yes,
       mostly anti-Trump) campaigns can be supported. Whether it’s supporting a
@@ -108,7 +108,7 @@ items:
         title: Donate Directly
       - active: false
         link: /
-        title: Coming Soon
+        title:
     content: >
       The ACLU’s objective is it to preserve and defend the American individual
       rights and liberties which are based on the Constitution and laws in the
@@ -120,7 +120,7 @@ items:
         title: Donate Directly
       - active: false
         link: /
-        title: Coming Soon
+        title:
     content: >
       The National Immigrant Justice Center is a dedicated organization that
       ensures the protection of human rights for all immigrants, asylum seekers
@@ -134,7 +134,7 @@ items:
         title: Donate Directly
       - active: false
         link: /
-        title: Coming Soon
+        title:
     content: >
       Launched after Donald Trump’s election, Indivisible became a nationwide
       movement of thousands of volunteer-led local groups that engage in
@@ -149,7 +149,7 @@ items:
         title: Donate Directly
       - active: false
         link: /
-        title: Coming Soon
+        title:
     content: >
       Instead of draining the swamp, he brought the swamp to the white house.
       This happened to a certain extent under democratic presidents as well.
@@ -163,7 +163,7 @@ items:
         title: Donate Directly
       - active: false
         link: /
-        title: Coming Soon
+        title:
     content: >
       Our Revolution will reclaim democracy for the working people of our
       country by harnessing the transformative energy of the “political
@@ -175,4 +175,3 @@ items:
     image: /assets/images/media_library/org_logo_or.svg
     title: Our Revolution
 ---
-
