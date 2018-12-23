@@ -38,6 +38,7 @@
                 "variantId": "all",
                 "width": "240px",
                 "iframe": false,
+                "buttonDestination": 'checkout',
                 "contents": {
                   "img": false,
                   "imgWithCarousel": false,
@@ -47,17 +48,21 @@
                   "description": false,
                   "buttonWithQuantity": false,
                   "quantity": true,
-                  "options": true,
+                  "options": false,
                   "button": true,
                   "quantityIncrement": true,
                   "quantityDecrement": true
                 },
                 "order": [
                   'price',
-                  'options',
                   'quantity',
                   'button'
                 ],
+                "text": {
+                  button: 'Check out',
+                  outOfStock: 'Out of stock',
+                  unavailable: 'Unavailable',
+                },
                 "classes": {
                   button: 'shopify-buy__btn btn',
                   price: 'shopify-buy__product__actual-price price',
