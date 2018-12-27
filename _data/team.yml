@@ -48,6 +48,17 @@ team:
     position: NGO Relations
     role: member
   - about: >-
+      Trang is American but currently living in France. So she is kind of our
+      western outpost and will be with the jubilant resistance of American
+      expats going wild on the champ elysee after the news of Trumps departure
+      breaks. Until then she will support us with her rich experience from
+      working with several startups.
+    contact:
+      email: trang@thedayheisooo.com
+    img: /assets/images/media_library/whatsapp-image-2018-12-27-at-20.38.29.jpeg
+    name: Trang Lê Bozon
+    role: member
+  - about: >-
       You have lots of motivation, a couple of hours time every week to work pro
       bono and some skills in law, social media, e-commerce, campaign
       management, etc.? Great - as long as your biggest skill is disagreeing
@@ -58,15 +69,4 @@ team:
     img: /assets/images/media_library/confetti-guy.png
     name: You?
     position: Chief Whatever Officer
-    role: member
-  - about: >-
-      Trang is American but currently living in France. So she is kind of our
-      western outpost and will be with the jubilant resistance of American
-      expats going wild on the champ elysee after the news of Trumps departure
-      breaks. Until then she will support us with her rich experience from
-      working with several startups.
-    contact:
-      email: trang@thedayheisooo.com
-    img: /assets/images/media_library/whatsapp-image-2018-12-27-at-20.38.29.jpeg
-    name: Trang Lê Bozon
     role: member
