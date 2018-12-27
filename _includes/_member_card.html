@@ -7,7 +7,7 @@
   {% endunless %}
   <div class="card__content">
     {% unless member.role == "advisor" && member.position.size == 0 %}
-    <p class="position" {% unless member.position %}style="color: white"{% endunless %}>{{ member.position | default: 'Member' }}</p>
+    <p class="position" {% unless member.position.size > 0 %}style="color: white"{% endunless %}>{{ member.position | default: 'Member' }}</p>
     {% endunless %}
     <h3 {% if member.role == "advisor"  && member.position.size == 0 %}style="padding-top: 10px;"{% endif %}>{{ member.name }}</h3>
     <p class="about">{{ member.about }}</p>
