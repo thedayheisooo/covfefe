@@ -15,6 +15,8 @@ items:
       representative is? [Find your local representative
       here](https://www.house.gov/representatives/find-your-representative) and
       familiarize yourself with their agenda!
+    image: >-
+      /assets/images/media_library/two-girls-protesting-in-oakland-zugeschnitten.jpg
     title: 1. Who is who?
   - content: >-
       The list of political issues is long and Donald’s tenure hasn’t seemed to
@@ -22,6 +24,8 @@ items:
       mind (although we suspect you do, otherwise you wouldn't be here), check
       out [this list](https://www.isidewith.com/polls/social) to find some
       causes that may matter to you.
+    image: >-
+      /assets/images/media_library/two-girls-protesting-in-oakland-zugeschnitten_2.jpg
     title: 2. What do you care about?
   - content: >-
       You’re feeling the urge to contact one of these infamous politicians and
@@ -29,18 +33,22 @@ items:
       like that, don't we? Find out
       [here](https://www.usa.gov/elected-officials) how to contact the federal
       elected officials.
+    image: >-
+      /assets/images/media_library/donald-trump-would-have-lost-us-election-if-bernie-sanders-had-been-the-candidate-2.jpg
     title: 3. How can I get in touch with elected officials?
   - content: >-
       The time has come to get off your couch and physically attend a political
       event. A good start is to attend your local town hall meeting to ensure
       your voice is being heard. Town hall meetings can usually be found on your
       city's website.
+    image: /assets/images/media_library/first.jpg
     title: 4. Where do I go first?
   - content: >-
       The resistance is local and organizations like
       [indivisible.com](https://www.indivisible.org/act-locally/) help you
       finding local, independent groups in your area. Come prepared to make
       plans for action and meet others who are working to resist Trump’s agenda.
+    image: /assets/images/media_library/21.jpg
     title: 5. How do I find a local group?
   - content: >-
       You have already taken the most important step which is to motivate
@@ -48,6 +56,7 @@ items:
       friends to support your cause. Tell them why a particular issue matters
       and ask them to join when you go to town hall meetings. United together we
       can maximize the impact of this movement!
+    image: /assets/images/media_library/21.2.jpg
     title: 6. Who‘s joining?
   - content: >-
       Volunteer! If your time and effort allows, you can give it a try and ask
