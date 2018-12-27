@@ -148,7 +148,8 @@ collections:
             fields:
               - { name: title, label: Title, widget: string }
               - { name: content, label: Description, widget: markdown }
-              - { name: image, label: Background Image, widget: image, hint: Image which will be displayed next to the item }
+              - { name: image, label: Background Image, widget: image, hint: Image/Logo which will be displayed next to the item }
+              - { name: background_image, label: Background, widget: image }
   - name: 'data'
     label: 'Data'
     delete: false
