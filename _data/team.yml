@@ -10,7 +10,7 @@ team:
       email: eli@thedayheisooo.com
     img: /assets/images/media_library/whatsapp-image-2018-12-27-at-21.50.19.jpeg
     name: Eli
-    position: Head of Communications
+    position: ''
     role: member
   - about: >-
       Adam was so mad about Trump that he dumped a side project he was working
@@ -22,7 +22,7 @@ team:
       email: aron@thedayheisooo.com
     img: /assets/images/media_library/adam.jpg
     name: Adam
-    position: CEO
+    position: ''
     role: member
   - about: >-
       Brian is one of the shy IT guys and the reason everything here looks as
@@ -33,7 +33,7 @@ team:
       email: bastian@thedayheisooo.com
     img: /assets/images/media_library/brian-ooo.png
     name: Brian
-    position: CTO
+    position: ''
     role: member
   - about: >-
       In summary Dan already lost 220 bucks betting that Trump will be #ooo by
@@ -59,3 +59,10 @@ team:
     name: You?
     position: Chief Whatever Officer
     role: member
+  - about: >-
+      Trang is currently living in France where she is being exposed to a
+      socioeconomic model combining a free market capitalist economic system
+      alongside social policies that establish both fair competition within the
+      market and a welfare state.
+    img: /assets/images/media_library/whatsapp-image-2018-12-27-at-20.38.29.jpeg
+    name: Trang Lê Bozon
