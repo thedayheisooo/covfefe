@@ -21,7 +21,7 @@ items:
           our donation platform. For now you can of course support them directly
           on their website at any time. Stay tuned for more to come...
         title:
-    background_image: /assets/images/media_library/first.jpg
+    background_image: /assets/images/media_library/ooo_00000.jpg
     content: >
       This organization is urging Congress to pass a resolution calling for the
       House Committee on the Judiciary to investigate whether sufficient grounds
@@ -36,7 +36,7 @@ items:
       - active: false
         link: /
         title:
-    background_image: /assets/images/media_library/first.jpg
+    background_image: /assets/images/media_library/ooo_00001.jpg
     content: >
       Everytown is a movement of Americans working together to end gun violence
       and build safer communities. More than 4 million mayors, moms, cops,
@@ -51,7 +51,7 @@ items:
       - active: false
         link: /
         title:
-    background_image: /assets/images/media_library/first.jpg
+    background_image: /assets/images/media_library/ooo_00002.jpg
     content: >
       The Human Rights Campaign represents a force of more than 3 million
       members and supporters nationwide. As the largest national lesbian, gay,
@@ -66,7 +66,7 @@ items:
       - active: false
         link: /
         title:
-    background_image: /assets/images/media_library/first.jpg
+    background_image: /assets/images/media_library/ooo_00003.jpg
     content: >
       In January 2017 over 3 million people were on the streets all over the US,
       actively protesting pretty much everything Trump stands for and to harness
@@ -84,7 +84,7 @@ items:
         link: /
         message: Life is shizzle!
         title:
-    background_image: /assets/images/media_library/first.jpg
+    background_image: /assets/images/media_library/ooo_00004.jpg
     content: >
       There are so many organizations out there to fight climate change – 175+
       unites them in one network. USCAN’s mission is to build trust and
@@ -98,7 +98,7 @@ items:
       - active: false
         link: /
         title:
-    background_image: /assets/images/media_library/first.jpg
+    background_image: /assets/images/media_library/ooo_00000.jpg
     content: >
       MoveOn is a platform where a wide range of different political (yes,
       mostly anti-Trump) campaigns can be supported. Whether it’s supporting a
@@ -114,7 +114,7 @@ items:
       - active: false
         link: /
         title:
-    background_image: /assets/images/media_library/first.jpg
+    background_image: /assets/images/media_library/ooo_00001.jpg
     content: >
       The ACLU’s objective is it to preserve and defend the American individual
       rights and liberties which are based on the Constitution and laws in the
@@ -127,7 +127,7 @@ items:
       - active: false
         link: /
         title:
-    background_image: /assets/images/media_library/first.jpg
+    background_image: /assets/images/media_library/ooo_00002.jpg
     content: >
       The National Immigrant Justice Center is a dedicated organization that
       ensures the protection of human rights for all immigrants, asylum seekers
@@ -142,7 +142,7 @@ items:
       - active: false
         link: /
         title:
-    background_image: /assets/images/media_library/first.jpg
+    background_image: /assets/images/media_library/ooo_00003.jpg
     content: >
       Launched after Donald Trump’s election, Indivisible became a nationwide
       movement of thousands of volunteer-led local groups that engage in
@@ -158,7 +158,7 @@ items:
       - active: false
         link: /
         title:
-    background_image: /assets/images/media_library/first.jpg
+    background_image: /assets/images/media_library/ooo_00004.jpg
     content: >
       Instead of draining the swamp, he brought the swamp to the white house.
       This happened to a certain extent under democratic presidents as well.
@@ -173,7 +173,7 @@ items:
       - active: false
         link: /
         title:
-    background_image: /assets/images/media_library/first.jpg
+    background_image: /assets/images/media_library/ooo_00000.jpg
     content: >
       Our Revolution will reclaim democracy for the working people of our
       country by harnessing the transformative energy of the “political
