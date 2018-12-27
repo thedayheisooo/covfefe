@@ -19,6 +19,10 @@ body.ooo {
   min-height: 100vh;
 }
 
+// General defaults
+.small {
+  font-size: 70%;
+}
 
 // device width (use bootstrap)
 //$xtra-large: none !default;
