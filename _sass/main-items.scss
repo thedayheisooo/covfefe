@@ -435,6 +435,10 @@ main {
     list-style: none;
     li {
       position: relative;
+      line-height: 1em;
+      &+li {
+        padding-top: .5em;
+      }
       &:before {
         content: counter(item) ". ";
         counter-increment: item;
@@ -446,6 +450,7 @@ main {
       p {
         display: inline;
         font-weight: 700;
+        line-height: 1.1em;
       }
     }
   }
