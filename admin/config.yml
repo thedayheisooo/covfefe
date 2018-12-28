@@ -157,7 +157,7 @@ collections:
           - { name: static, widget: hidden, default: static }
           - { name: title, label: Title, widget: string, required: true }
           - { name: last_updated, layout: Last Updated, widget: string }
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Body", name: "body", widget: "markdown", hint: "Include {% include contact.html %} to display the contact information."}
           - name: 'contact'
             label: 'Contact'
             widget: 'object'
@@ -267,6 +267,7 @@ collections:
           - name: 'footer'
             layout: 'Navigation Additions for Footer'
             widget: 'list'
+            hint: 'Elements added to the footer navigation list will be solely display (alongside the main navigation elements) in the footer section of the website.'
             fields:
               - { name: name, layout: Link Name, widget: string, required: true }
               - { name: url, layout: URL, widget: string, required: true }
