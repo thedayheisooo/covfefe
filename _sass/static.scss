@@ -20,6 +20,13 @@ main.ooo__static {
       margin-bottom: .2em;
       color: $blue;
     }
+    p.last_updated {
+      text-transform: uppercase;
+      opacity: .3;
+      font-size: .7em;
+      font-weight: 700;
+      margin-top: 5px;
+    }
   }
   .ooo_contact {
     margin: 2em 0;

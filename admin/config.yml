@@ -157,6 +157,7 @@ collections:
           - { name: static, widget: hidden, default: static }
           - { name: title, label: Title, widget: string, required: true }
           - { name: last_updated, layout: Last Updated, widget: string }
+          - {label: "Body", name: "body", widget: "markdown"}
           - name: 'contact'
             label: 'Contact'
             widget: 'object'
@@ -173,15 +174,7 @@ collections:
           - { name: static, widget: hidden, default: static }
           - { name: title, label: Title, widget: string, required: true }
           - { name: last_updated, layout: Last Updated, widget: string }
-          - name: 'contact'
-            label: 'Contact'
-            widget: 'object'
-            fields:
-              - { name: name, label: Name, widget: string }
-              - { name: street, label: Street | Address 1, widget: string }
-              - { name: location, label: Location | Address 2, widget: string }
-              - { name: phone, label: Phone, widget: string }
-              - { name: email, label: Email, widget: string }
+          - {label: "Body", name: "body", widget: "markdown"}
   - name: 'data'
     label: 'Data'
     delete: false
