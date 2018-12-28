@@ -150,6 +150,38 @@ collections:
               - { name: content, label: Description, widget: markdown }
               - { name: image, label: Background Image, widget: image, hint: Image/Logo which will be displayed next to the item }
               - { name: background_image, label: Background, widget: image }
+      - name: 'imprint'
+        label: 'Imprint'
+        file: 'imprint.md'
+        fields:
+          - { name: static, widget: hidden, default: static }
+          - { name: title, label: Title, widget: string, required: true }
+          - { name: last_updated, layout: Last Updated, widget: string }
+          - name: 'contact'
+            label: 'Contact'
+            widget: 'object'
+            fields:
+              - { name: name, label: Name, widget: string }
+              - { name: street, label: Street | Address 1, widget: string }
+              - { name: location, label: Location | Address 2, widget: string }
+              - { name: phone, label: Phone, widget: string }
+              - { name: email, label: Email, widget: string }
+      - name: 'privacy policy'
+        label: 'Privacy Policy'
+        file: 'privacy_policy.md'
+        fields:
+          - { name: static, widget: hidden, default: static }
+          - { name: title, label: Title, widget: string, required: true }
+          - { name: last_updated, layout: Last Updated, widget: string }
+          - name: 'contact'
+            label: 'Contact'
+            widget: 'object'
+            fields:
+              - { name: name, label: Name, widget: string }
+              - { name: street, label: Street | Address 1, widget: string }
+              - { name: location, label: Location | Address 2, widget: string }
+              - { name: phone, label: Phone, widget: string }
+              - { name: email, label: Email, widget: string }
   - name: 'data'
     label: 'Data'
     delete: false
@@ -227,3 +259,30 @@ collections:
                   - { label: Linkedin, name: linkedin, widget: string }
                   - { label: Twitter, name: twitter, widget: string }
                   - { label: eMail, name: email, widget: string }
+      - name: 'nav'
+        label: 'Navigation'
+        file: '_data/nav.yml'
+        extension: 'yml'
+        fields:
+          - name: 'main'
+            layout: 'Main Navigation'
+            widget: 'list'
+            fields:
+              - { name: name, layout: Link Name, widget: string, required: true }
+              - { name: url, layout: URL, widget: string, required: true }
+              - { name: active, layout: Active, widget: boolean }
+          - name: 'footer'
+            layout: 'Navigation Additions for Footer'
+            widget: 'list'
+            fields:
+              - { name: name, layout: Link Name, widget: string, required: true }
+              - { name: url, layout: URL, widget: string, required: true }
+              - { name: active, layout: Active, widget: boolean }
+          - name: 'mobile'
+            layout: 'Mobile Navigation'
+            widget: 'list'
+            fields:
+              - { name: name, layout: Link Name, widget: string, required: true }
+              - { name: url, layout: URL, widget: string, required: true }
+              - { name: icon, layout: Icon, widget: string, hint: This is connected to included svg icons. Please do not change. }
+              - { name: active, layout: Active, widget: boolean }

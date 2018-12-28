@@ -1,33 +1,53 @@
 main:
   - name: Home
     url: /
+    active: true
   - name: About us
     url: /about/
-  # - name: Donate & Buy
-  #   url: /donate/
-  # - name: Join the movement
-  #   url: /get_involved/
+    active: true
+  - name: Donate & Buy
+    url: /donate/
+    active: false
+  - name: Join the movement
+    url: /get_involved/
+    active: false
   - name: FAQ
     url: '/#faq'
+    active: true
   - name: buy
     url: /#buy
+    active: true
+
+footer:
+  - name: Imprint
+    url: /imprint
+    active: true
+  - name: Privacy Policy
+    url: /privacy_policy
+    active: true
 
 mobile:
   - name: Home
     url: /
     icon: ooo_sec_wht_rgb
+    active: true
   - name: About
     url: /about/
     icon: group
-  # - name: Donate
-  #   url: /donate/
-  #   icon: donate
-  # - name: Join
-  #   url: /get_involved/
-  #   icon: join
+    active: true
+  - name: Donate
+    url: /donate/
+    icon: donate
+    active: false
+  - name: Join
+    url: /get_involved/
+    icon: join
+    active: false
   - name: FAQ
     url: '/#faq'
     icon: faq
+    active: true
   - name: Buy
     url: '/#buy'
     icon: buy
+    active: true

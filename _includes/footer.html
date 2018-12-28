@@ -4,13 +4,19 @@
     <p>TDHIOOO is a trademark owned by us.</p>
     <p>For inqueris of any topic please reach out to us by this <a href="mailto:{{ site.data.defaults.contact.email }}">address.</a></p>
     <div class="links">
+      {% assign main_nav = site.data.nav.main | where: 'active', 'true' %}
+      {% assign footer_nav = site.data.nav.footer | where: 'active', 'true' %}
       <ul>
-        {% for el in site.data.nav.main %}
+        {% for el in main_nav %}
+        <li><a href="{{ el.url }}">{{ el.name }}</a></li>
+        {% endfor %}
+        {% for el in footer_nav %}
         <li><a href="{{ el.url }}">{{ el.name }}</a></li>
         {% endfor %}
       </ul>
     </div>
-    <p class="top">TDHIOOO &copy; 2018</p>
+    {% assign build_date = site.time | date: "%s" %}
+    <p class="top">TDHIOOO &copy; 2018{% if build_date > '1546300801' %} – 2019{% endif %}</p>
   </div>
 
 </footer>

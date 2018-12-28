@@ -1,0 +1,10 @@
+<div class="ooo_contact">
+  <h2>Contact</h2>
+  {{ page.contact.name | markdownify }}
+  {{ page.contact.street  | markdownify }}
+  {{ page.contact.location | markdownify }}
+  <div class="ooo_contact_details">
+    {{ page.contact.phone | markdownify }}
+    {{ page.contact.email | markdownify }}
+  </div>
+</div>
