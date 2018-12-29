@@ -120,7 +120,7 @@ collections:
           - { label: Title, name: title, widget: string }
           - { label: Intro, name: intro, widget: markdown }
           - { label: About Members, name: about_members, widget: markdown }
-          - { label: About Advisors, name: about_advisors, widget: markdown }
+          - { label: About Advisors, name: about_advisors, widget: markdown, required: false }
           - label: "Sitemap"
             name: "sitemap"
             widget: "object"
