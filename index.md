@@ -8,15 +8,18 @@ intro:
         What do you think will happen when the Trump is OOO news breaks?
         Exactly! Millions will celebrate, and 9,874 of them will have a drink
         together.
-      title: people got their ooo-drink prepared</br><span class="small">(counter is not active yet)</span>
+      title: >-
+        people got their ooo-drink prepared</br><span class="small">(counter is
+        not active yet)</span>
     - number: '29,622'
       text: >-
         We all want the #ooo party happen as soon as possible and therefore we
         support projects who fight all Trump stands for. You'll have the chance
         to vote on the projects we'll support - it might be liberal podcast
-        creaters, enviromental organizations, etc. ... send us you suggestions!
+        creaters, enviromental organizations, etc. ... send us your suggestions!
       title: >-
-        Have been raised to get the party started asap</br><span class="small">(counter is not active yet)</span>
+        Have been raised to get the party started asap</br><span
+        class="small">(counter is not active yet)</span>
   reasons:
     - Seeing the bottle will be your daily boost of motivation to keep fighting.
     - 'You contribute money to projects in support of the "blue wave". '
@@ -100,3 +103,4 @@ how_to:
     - desc: Celebrate with the whole world on the day he is OOO.
       icon: 20180923_step_5.svg
 ---
+
