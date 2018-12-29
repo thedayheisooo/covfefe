@@ -2,6 +2,8 @@
 layout: static
 title: Privacy Policy.
 last_updated: 201812282124
+sitemap:
+  exclude: 'yes'
 ---
 
 Vulputate ut posuere morbi aenean eros ligula, faucibus lectus sollicitudin risus litora libero, condimentum natoque nec bibendum molestie. [Eleifend himenaeos](https://google.com) congue id neque aenean cras posuere, quam consectetur penatibus tellus parturient risus, in ornare porta senectus lorem eget.

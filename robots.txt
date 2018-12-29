@@ -1,4 +1,6 @@
 ---
+sitemap:
+  exclude: 'yes'
 ---
 # www.robotstxt.org/
 # www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
@@ -7,3 +9,5 @@ User-agent: *
 Sitemap: {{ site.url }}/sitemap.xml
 Disallow: /imprint.html
 Disallow: /privacy_policy.html
+Disallow: /admin/
+Disallow: /protect.html

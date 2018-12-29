@@ -2,6 +2,8 @@
 layout: static
 title: Imprint.
 last_updated: 201812282124
+sitemap:
+  exclude: 'yes'
 contact:
   name: John Doe
   street: Hollywood Blvd

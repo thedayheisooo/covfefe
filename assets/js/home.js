@@ -1,4 +1,6 @@
 ---
+sitemap:
+  exclude: 'yes'
 ---
 {% include js/slick.min.js %}
 {% include js/faq.js %}
