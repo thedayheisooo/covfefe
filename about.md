@@ -41,5 +41,8 @@ about_members: >-
   This is all about the movement and not about us! However, in case you have
   serious trust issues it might help you to see some of the beutiful faces
   behind the the project.
-about_advisors: >-
+about_advisors: ''
+sitemap:
+  changefreq: monthly
 ---
+
