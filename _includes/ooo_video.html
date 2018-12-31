@@ -1,6 +1,6 @@
 <div class="ooo__video">
   <div class="media_container">
-    <img src="{{ "/assets/images/dev/video_placeholder.png" | prepend: site.baseurl }}" alt="Placeholder">
+    <img class="lazyload no-src" data-src="{{ "/assets/images/dev/video_placeholder.png" | prepend: site.baseurl }}" alt="Placeholder">
     <video autoplay muted loop poster="{{ "/assets/images/dev/video_placeholder.png" | prepend: site.baseurl }}" id="myVideo">
       <source src="{{ "/assets/images/dev/ooo_background_video_trim.mp4" | prepend: site.baseurl }}" type="video/mp4">
     </video>
