@@ -13,12 +13,12 @@
             <p>{{ tweet.tweet }}</p>
             {%- if tweet.media_type == 'photo' -%}
             <div class="tweet_img br5">
-              <img src="{{ tweet.media_url }}" alt="tweet_image_{{ tweet.user_name }}">
+              <img class="lazyload no-src" data-src="{{ tweet.media_url }}" alt="tweet_image_{{ tweet.user_name }}">
             </div>
             {%- endif -%}
             <time class="ooo_ago" datetime="{{ tweet.created_at }}">{{ tweet.created_at }}</time>
             <cite>
-              <img src="{{ tweet.user_image[0].thumbnails.large.url }}" alt="{{ tweet.user_name }}">
+              <img class="lazyload no-src" data-src="{{ tweet.user_image[0].thumbnails.large.url }}" alt="{{ tweet.user_name }}">
               <a href="{{ tweet.tweet_link }}">
                 {{ tweet.user }}
                 <small>
@@ -35,12 +35,12 @@
             <p>{{ tweet.tweet }}</p>
             {%- if tweet.media_type == 'photo' -%}
             <div class="tweet_img">
-              <img src="{{ tweet.media_url }}" alt="tweet_image_{{ tweet.user_name }}">
+              <img class="lazyload no-src" data-src="{{ tweet.media_url }}" alt="tweet_image_{{ tweet.user_name }}">
             </div>
             {%- endif -%}
             <time class="ooo_ago" datetime="{{ tweet.created_at }}">{{ tweet.created_at }}</time>
             <cite>
-              <img src="{{ tweet.user_image[0].thumbnails.large.url }}" alt="{{ tweet.user_name }}">
+              <img class="lazyload no-src" data-src="{{ tweet.user_image[0].thumbnails.large.url }}" alt="{{ tweet.user_name }}">
               <a href="{{ tweet.tweet_link }}">
                 {{ tweet.user }}
                 <small>

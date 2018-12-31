@@ -1,10 +1,10 @@
 <section class="ooo__chessview">
   {% for item in page.items %}
     <div class="ooo_row">
-      <div class="ooo_element ooo_element__image {% if item.image %}ooo_whiteout{% else %}ooo_blueout{% endif %}">
-        <div class="ooo_background_image" style="background-image: url('{% if item.background_image %}{{ item.background_image | prepend: site.base_url }}{% else %}/assets/images/dev/placeholder.jpg{% endif %}')"></div>
+      <div class="ooo_element ooo_element__image{% if item.image %} ooo_whiteout{% else %} ooo_blueout{% endif %}">
+        <div class="ooo_background_image lazyload no-src" data-bg="{% if item.background_image %}{{ item.background_image | prepend: site.base_url }}{% else %}/assets/images/dev/placeholder.jpg{% endif %}"></div>
         {% if item.image %}
-          <img src="{{ item.image | prepend: site.base_url }}" alt="{{ item.title }}">
+          <img class="lazyload no-src" data-src="{{ item.image | prepend: site.base_url }}" alt="{{ item.title }}">
         {% endif %}
       </div>
       <div class="ooo_element ooo_element__text">

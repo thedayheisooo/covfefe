@@ -41,8 +41,6 @@ Based upon the following projects:
 - TimeAgo
   The original jQuery plugin that makes it easy to support automatically updating fuzzy timestamps (e.g. "4 minutes ago").
   https://timeago.yarp.com/
-
-
 _______________________________________
 
 CHANGELOG

@@ -13,6 +13,14 @@ jQuery(document).ready(function() {
   jQuery("time.ooo_ago").timeago();
 });
 
+{% include js/lazysizes.min.js %}
+document.addEventListener('lazybeforeunveil', function(e){
+  var bg = e.target.getAttribute('data-bg');
+  if(bg){
+      e.target.style.backgroundImage = 'url(' + bg + ')';
+  }
+});
+
 
 var window_width = $(window).width();
 var window_height = $(window).height();

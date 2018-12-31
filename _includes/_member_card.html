@@ -3,7 +3,7 @@
     {% include svg/ooo_logo.html %}
   </div>
   {% unless member.role == "advisor" && member.img.size == 0 %}
-  <img src="{% if member.img %}{{ member.img }}{% else %}{{ "/assets/images/dev/placeholder.jpg" | prepend: site.baseurl }}{% endif %}" alt="{{ member.name }}">
+  <img class="lazyload no-src" data-src="{% if member.img %}{{ member.img }}{% else %}{{ "/assets/images/dev/placeholder.jpg" | prepend: site.baseurl }}{% endif %}" alt="{{ member.name }}">
   {% endunless %}
   <div class="card__content">
     {% unless member.role == "advisor" && member.position.size == 0 %}
