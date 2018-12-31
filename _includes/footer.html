@@ -15,8 +15,8 @@
         {% endfor %}
       </ul>
     </div>
-    {% assign build_date = site.time | date: "%s" %}
-    <p class="top">TDHIOOO &copy; 2018{% if build_date > '1546300801' %} – 2019{% endif %}</p>
+    {% assign build_year = site.time | date: "%Y" %}
+    <p class="top">TDHIOOO &copy; 2018{% if build_year > '2018' %} – {{ build_year }}{% endif %}</p>
   </div>
 
 </footer>
