@@ -27,7 +27,7 @@ var autolinker = new Autolinker({
   phone: false,
   mention: 'twitter',
   hashtag: 'twitter',
-  truncate: 10
+  truncate: 25
 });
 
 $('.ooo_tweet__content').each( function(){
