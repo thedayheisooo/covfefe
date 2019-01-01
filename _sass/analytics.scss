@@ -1,6 +1,6 @@
 section#ooo_analytics {
   position: fixed;
-  bottom: 0;
+  bottom: 75px;
   left: 50%;
   background: $red;
   opacity: 1;
@@ -12,6 +12,9 @@ section#ooo_analytics {
   border-top-right-radius: 5px;
   transform: translate(-50%, 100%);
   transition: all .4s ease-in-out;
+  @include media-query($small) {
+    bottom: 0;
+  };
   &.ooo_active {
     transform: translate(-50%, 0);
     transition: all .4s ease-in-out;
