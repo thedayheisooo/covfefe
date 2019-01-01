@@ -10,7 +10,7 @@
         {% for tweet in site.data.twitter.featured %}
           <blockquote class="ooo_card ooo_tweet">
             <p class="featured">Featured</p>
-            <p>{{ tweet.tweet }}</p>
+            <div class="ooo_tweet__content">{{ tweet.tweet }}</div>
             {%- if tweet.media_type == 'photo' -%}
             <div class="tweet_img br5">
               <img class="lazyload no-src" data-src="{{ tweet.media_url }}" alt="tweet_image_{{ tweet.user_name }}">
@@ -32,7 +32,7 @@
 
         {% for tweet in site.data.twitter.all %}
           <blockquote class="ooo_card ooo_tweet">
-            <p>{{ tweet.tweet }}</p>
+            <div class="ooo_tweet__content">{{ tweet.tweet }}</div>
             {%- if tweet.media_type == 'photo' -%}
             <div class="tweet_img">
               <img class="lazyload no-src" data-src="{{ tweet.media_url }}" alt="tweet_image_{{ tweet.user_name }}">

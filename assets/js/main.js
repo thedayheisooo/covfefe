@@ -21,6 +21,20 @@ document.addEventListener('lazybeforeunveil', function(e){
   }
 });
 
+{% include js/autolinker.min.js %}
+var autolinker = new Autolinker({
+  newWindow: true,
+  phone: false,
+  mention: 'twitter',
+  hashtag: 'twitter',
+  truncate: 10
+});
+
+$('.ooo_tweet__content').each( function(){
+  var el = $(this);
+  el.html('<p>' + autolinker.link( el.text() ) + '</p>');
+})
+
 
 var window_width = $(window).width();
 var window_height = $(window).height();
