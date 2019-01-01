@@ -3,6 +3,8 @@ sitemap:
   exclude: 'yes'
 ---
 
+{% include js/analytics_script.js %}
+
 // balancetext polyfill
 {% include js/balancetext.min.js %}
 //balanceText();
