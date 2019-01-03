@@ -39,10 +39,11 @@ intro: >-
 about_members: >-
   This is a little side project of a diverse team of volunteers. Don't forget:
   This is all about the movement and not about us! However, in case you have
-  serious trust issues it might help you to see some of the beutiful faces
+  serious trust issues it might help you to see some of the beautiful faces
   behind the the project.
 about_advisors: ''
 sitemap:
   changefreq: monthly
+  lastmod: 2019-01-02T17:07:04.631Z
 ---
 
