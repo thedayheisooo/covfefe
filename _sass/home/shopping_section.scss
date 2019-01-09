@@ -160,6 +160,7 @@ section#how_to {
 section#how_to {
   position: relative;
   max-width: unset;
+  overflow: hidden;
   &:before {
     content: '';
     background: url('/assets/images/dev/how_to_warning.svg');
