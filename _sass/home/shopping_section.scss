@@ -159,12 +159,13 @@ section#how_to {
 
 section#how_to {
   position: relative;
+  max-width: unset;
   &:before {
     content: '';
     background: url('/assets/images/dev/how_to_warning.svg');
     top: 0;
     left: -15%;
-    width: 115%;
+    width: 130%;
     position: absolute;
     height: 10px;
   }
