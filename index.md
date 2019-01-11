@@ -1,7 +1,7 @@
 ---
 layout: home
 title-claim: 'The anticipation of millions of Americans has taken shape.'
-sub-claim: 'Get the ooo-label, paste it on your favorite drink and make the day he is out of office even more desirable.'
+sub-claim: 'Get the ooo-label, paste it to your favorite drink and make the day he is out of office even more desirable.'
 intro:
   numbers:
     - number: '9,874'
