@@ -1,7 +1,6 @@
 ---
 layout: home
-title-claim: 'The anticipation of millions of Americans has taken shape.'
-sub-claim: 'Get the ooo-label, paste it to your favorite drink and make the day he is out of office even more desirable.'
+title-claim: The anticipation of millions of Americans has taken shape.
 intro:
   numbers:
     - number: '9,874'
@@ -66,7 +65,7 @@ intro:
       title: host a ooo-party
 faq:
   more_content: >-
-    Wow, you are a though supporter to handle and honestly, we are wondering if
+    Wow, you are a tough supporter to handle and honestly, we are wondering if
     your time wouldn't be  better spent #resisting. But alright — I guess we are
     kind of interested in your thoughts and ideas so share them with us.
 
@@ -103,4 +102,7 @@ how_to:
       x_positioning: '25'
     - desc: Celebrate with the whole world on the day he is OOO.
       icon: 20180923_step_5.svg
+sitemap:
+  lastmod: 2019-01-11T07:22:09.443Z
 ---
+
