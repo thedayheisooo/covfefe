@@ -1,6 +1,7 @@
 ---
 layout: home
-title-claim: 'HEY RESISTANCE: GET YOUR DRINK READY FOR THE OOO-PARTY'
+title-claim: 'The anticipation of millions of Americans has taken shape.'
+sub-claim: 'Get the ooo-label, paste it on your favorite drink and make the day he is out of office even more desirable.'
 intro:
   numbers:
     - number: '9,874'
@@ -103,4 +104,3 @@ how_to:
     - desc: Celebrate with the whole world on the day he is OOO.
       icon: 20180923_step_5.svg
 ---
-

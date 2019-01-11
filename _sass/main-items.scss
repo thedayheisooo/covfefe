@@ -365,7 +365,7 @@ footer {
   left: 0;
 }
 
-p.claim {
+h1.claim, p.sub_claim {
   font-size: 1.5rem;
   line-height: 1.2em;
   width: 800px;
@@ -374,16 +374,22 @@ p.claim {
   color: white;
   font-family: $main;
   font-weight: 500;
-  margin: 50px 0;
   position: relative;
+  text-transform: none;
+  letter-spacing: normal;
   @include media-query($small){
     font-size: 3.5vw;
   };
   @include media-query($large){
-    width: 40%;
+    width: 50%;
   };
 }
-
+.sub_claim {
+  font-size: 50%;
+  display: block;
+  line-height: 1.4em;
+  margin: 20px 0 30px;
+}
 a.btn {
   background: $red;
   border-radius: 5px;
