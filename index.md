@@ -1,6 +1,7 @@
 ---
 layout: home
 title-claim: The anticipation of millions of Americans has taken shape.
+sub-claim: 'Get the ooo-label, paste it to your favorite drink and make the day he is out of office even more desirable.'
 intro:
   numbers:
     - number: '9,874'
@@ -105,4 +106,3 @@ how_to:
 sitemap:
   lastmod: 2019-01-11T07:22:09.443Z
 ---
-
