@@ -263,6 +263,10 @@ collections:
               - { name: channel, label: Channel Title, widget: string }
               - { name: fa-icon, label: Fontawesome-Icon, widget: string }
               - { name: link, label: Link to Account, string: widget }
+          - name: 'description'
+            label: 'Site Description'
+            widget: markdown
+            hint: 'Google usually does not take more than 320 characters into account'
       - name: 'faq'
         label: 'FAQ'
         file: '_data/faq.yml'
