@@ -26,6 +26,9 @@ collections:
           - label: 'Claim'
             name: title-claim
             widget: 'string'
+          - label: 'Sub-Claim'
+            name: sub-claim
+            widget: 'string'
           - label: 'Intro'
             name: 'intro'
             widget: 'object'
