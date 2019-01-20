@@ -1,6 +1,7 @@
 ---
 layout: home
-title-claim: 'HEY RESISTANCE: GET YOUR DRINK READY FOR THE OOO-PARTY'
+title-claim: The anticipation of millions of Americans has taken shape.
+sub-claim: 'Get the ooo-label, paste it to your favorite drink and make the day he is out of office even more desirable.'
 intro:
   numbers:
     - number: '9,874'
@@ -8,20 +9,21 @@ intro:
         What do you think will happen when the Trump is OOO news breaks?
         Exactly! Millions will celebrate, and 9,874 of them will have a drink
         together.
-      title: people got their ooo-drink prepared (counter is not active yet)
+      title: >-
+        people got their ooo-drink prepared</br><span class="small">(counter is
+        not active yet)</span>
     - number: '29,622'
       text: >-
-        We all want the party happen as soon as possible and therefore  we
-        support organizations who fight all Trump stands for. Every OOO-LABEL
-        will contribute to those organizations – scroll down to get your label.
+        We all want the #ooo party happen as soon as possible and therefore we
+        support projects who fight all Trump stands for. You'll have the chance
+        to vote on the projects we'll support - it might be liberal podcast
+        creaters, enviromental organizations, etc. ... send us your suggestions!
       title: >-
-        Have been raised to get the party started asap (counter is not active
-        yet)
+        Have been raised to get the party started asap</br><span
+        class="small">(counter is not active yet)</span>
   reasons:
     - Seeing the bottle will be your daily boost of motivation to keep fighting.
-    - >-
-      You contribute money to "blue wave" organizations which are fighting for
-      our democracy and freedom.
+    - 'You contribute money to projects in support of the "blue wave". '
   text: >-
     Exactly – getting a drink ready to celebrate his final day in office is
     powerful for two reasons.
@@ -43,16 +45,14 @@ intro:
       number: '1'
       title: engage
     - button:
-        text: Contact us
-        url: /
+        text: Let's do this
+        url: /donate
       content: >-
         Plenty of organizations are out there fighting for our freedom! Support
         them – we provide you with an overview of organizations you can give
-        money to or support in a more active way (see #1). We are currently
-        talking to various organizations to identify who we want to collaborate
-        with.
+        money to or support in a more active way (see #1).
       number: '2'
-      pending: true
+      pending: false
       title: donate
     - button:
         text: Contact us
@@ -66,7 +66,7 @@ intro:
       title: host a ooo-party
 faq:
   more_content: >-
-    Wow, you are a though supporter to handle and honestly, we are wondering if
+    Wow, you are a tough supporter to handle and honestly, we are wondering if
     your time wouldn't be  better spent #resisting. But alright — I guess we are
     kind of interested in your thoughts and ideas so share them with us.
 
@@ -86,7 +86,23 @@ quote:
     Associate Justice of the Supreme Court of the United States and highly
     emotional 'gentleman' who — among other "things“ — apparently likes beer.
 shop_intro: >-
-  This is where the magic happens. Where our products are sold and where you can
-  make a difference. All of our products will contribute to an organisation of
-  you choice — if you decide to buy. <br> Let‘s start makin' some changes.
+  It is easy for you to decide for a product - we only have one! However, more
+  is in the making so stay tuned for champagne & wine labels and more!
+how_to:
+  steps:
+    - desc: Pick your<br>favorite beer<br>(About 9 in tall).
+      icon: 20180923_step_1.svg
+      x_positioning: '-25'
+    - desc: Wash off the existing label with soap and water.
+      icon: 20180923_step_2.svg
+      x_positioning: '-25'
+    - desc: Take the OOO_Label and stick it on the bottle.
+      icon: 20180923_step_3.svg
+    - desc: 'Spread the word by using #ooo! We‘re counting on you.'
+      icon: 20180923_step_4.svg
+      x_positioning: '25'
+    - desc: Celebrate with the whole world on the day he is OOO.
+      icon: 20180923_step_5.svg
+sitemap:
+  lastmod: 2019-01-11T07:22:09.443Z
 ---

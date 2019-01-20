@@ -4,7 +4,8 @@
   </div>
   <div class="top__nav">
     <ul>
-      {% for el in site.data.nav.main %}
+      {% assign main_nav = site.data.nav.main | where: 'active', 'true' %}
+      {% for el in main_nav %}
       <li class="
       {% if el.name == 'buy' %}
         buy

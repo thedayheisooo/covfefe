@@ -1,0 +1,26 @@
+<div class="ooo_card">
+  <div class="card__logo">
+    {% include svg/ooo_logo.html %}
+  </div>
+  {% unless member.role == "advisor" && member.img.size == 0 %}
+  <img class="lazyload no-src" data-src="{% if member.img %}{{ member.img }}{% else %}{{ "/assets/images/dev/placeholder.jpg" | prepend: site.baseurl }}{% endif %}" alt="{{ member.name }}">
+  {% endunless %}
+  <div class="card__content">
+    {% unless member.role == "advisor" && member.position.size == 0 %}
+    <p class="position" {% unless member.position.size > 0 %}style="color: white"{% endunless %}>{{ member.position | default: 'Member' }}</p>
+    {% endunless %}
+    <h3 {% if member.role == "advisor"  && member.position.size == 0 %}style="padding-top: 10px;"{% endif %}>{{ member.name }}</h3>
+    <p class="about">{{ member.about }}</p>
+  </div>
+  <div class="contact">
+    {% if member.contact.twitter.size > 0 %}
+      <a href="{{ member.contact.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>
+    {% endif %}
+    {% if member.contact.email.size > 0 %}
+      <a href="mailto:{{ member.contact.email }}"><i class="fas fa-envelope"></i></a>
+    {% endif %}
+    {% if member.contact.linkedin > 0 %}
+      <a href="{{ member.contact.linkedin }}" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    {% endif %}
+  </div>
+</div>

@@ -23,7 +23,7 @@
       {{ page.faq.more_content | markdownify }}
       <div class="social_channels dark">
         {% for channel in site.data.defaults.channels %}
-          <a href="{{ channel.link }}"><i class="fab fa-{{ channel.fa-icon }}"></i></a>
+          <a href="{{ channel.link }}" target="_blank"><i class="fab fa-{{ channel.fa-icon }}"></i></a>
         {% endfor %}
         <p class="hashtag">Always remember: <b>#ooo</b></p>
       </div>

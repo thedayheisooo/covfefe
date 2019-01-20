@@ -10,15 +10,15 @@
         {% for tweet in site.data.twitter.featured %}
           <blockquote class="ooo_card ooo_tweet">
             <p class="featured">Featured</p>
-            <p>{{ tweet.tweet }}</p>
+            <div class="ooo_tweet__content">{{ tweet.tweet }}</div>
             {%- if tweet.media_type == 'photo' -%}
             <div class="tweet_img br5">
-              <img src="{{ tweet.media_url }}" alt="tweet_image_{{ tweet.user_name }}">
+              <img class="lazyload no-src" data-src="{{ tweet.media_url }}" alt="tweet_image_{{ tweet.user_name }}">
             </div>
             {%- endif -%}
             <time class="ooo_ago" datetime="{{ tweet.created_at }}">{{ tweet.created_at }}</time>
             <cite>
-              <img src="{{ tweet.user_image[0].thumbnails.large.url }}" alt="{{ tweet.user_name }}">
+              <img class="lazyload no-src" data-src="{{ tweet.user_image[0].thumbnails.large.url }}" alt="{{ tweet.user_name }}">
               <a href="{{ tweet.tweet_link }}">
                 {{ tweet.user }}
                 <small>
@@ -32,15 +32,15 @@
 
         {% for tweet in site.data.twitter.all %}
           <blockquote class="ooo_card ooo_tweet">
-            <p>{{ tweet.tweet }}</p>
+            <div class="ooo_tweet__content">{{ tweet.tweet }}</div>
             {%- if tweet.media_type == 'photo' -%}
             <div class="tweet_img">
-              <img src="{{ tweet.media_url }}" alt="tweet_image_{{ tweet.user_name }}">
+              <img class="lazyload no-src" data-src="{{ tweet.media_url }}" alt="tweet_image_{{ tweet.user_name }}">
             </div>
             {%- endif -%}
             <time class="ooo_ago" datetime="{{ tweet.created_at }}">{{ tweet.created_at }}</time>
             <cite>
-              <img src="{{ tweet.user_image[0].thumbnails.large.url }}" alt="{{ tweet.user_name }}">
+              <img class="lazyload no-src" data-src="{{ tweet.user_image[0].thumbnails.large.url }}" alt="{{ tweet.user_name }}">
               <a href="{{ tweet.tweet_link }}">
                 {{ tweet.user }}
                 <small>
@@ -64,7 +64,7 @@
   <div class="ooo__grid_el grid__social">
     <div class="social_channels">
       {% for channel in site.data.defaults.channels %}
-        <a href="{{ channel.link }}"><i class="fab fa-{{ channel.fa-icon }}"></i></a>
+        <a href="{{ channel.link }}" target="_blank"><i class="fab fa-{{ channel.fa-icon }}"></i></a>
       {% endfor %}
       <p class="hashtag">Always remember: <b>#ooo</b></p>
     </div>

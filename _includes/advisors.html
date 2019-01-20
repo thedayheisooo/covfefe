@@ -1,0 +1,12 @@
+{% assign team = site.data.team.team | where:"role", "advisor" %}
+{% if team.size > 0 %}
+<section class="members ooo_container ooo_advisors">
+  <h2>Advisors.</h2>
+  <p class="about_members">{{ page.advisors.about }}</p>
+  <div class="ooo_members__frame">
+    {% for member in team %}
+      {% include _member_card.html %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

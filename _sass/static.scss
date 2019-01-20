@@ -1,0 +1,51 @@
+main.ooo__static {
+  &>.ooo__static_content {
+    max-width: 700px;
+    margin: 25px auto 160px;
+    padding: 0 15px;
+    h1 {
+      line-height: .8em;
+    }
+    h2 {
+      font-size: 3rem;
+      margin-top: 1.5em;
+      margin-bottom: .2em;
+      &:after {
+        content: none;
+      }
+    }
+    h3 {
+      font-size: 2rem;
+      margin-top: 1em;
+      margin-bottom: .2em;
+      color: $blue;
+    }
+    p.last_updated {
+      text-transform: uppercase;
+      opacity: .3;
+      font-size: .7em;
+      font-weight: 700;
+      margin-top: 5px;
+    }
+  }
+  .ooo_contact {
+    margin: 2em 0;
+    &>* {
+      padding: 0;
+      padding-left: .5rem;
+      margin: 0;
+    }
+    p {
+      line-height: 1.2em;
+    }
+    h2 {
+      font-size: 1.3rem;
+    }
+  }
+  .ooo_contact_details {
+    margin-top: .5em;
+    p {
+      padding-top: 0;
+    }
+  }
+}

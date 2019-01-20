@@ -365,7 +365,7 @@ footer {
   left: 0;
 }
 
-p.claim {
+h1.claim, p.sub_claim {
   font-size: 1.5rem;
   line-height: 1.2em;
   width: 800px;
@@ -374,13 +374,14 @@ p.claim {
   color: white;
   font-family: $main;
   font-weight: 500;
-  margin: 50px 0;
   position: relative;
+  text-transform: none;
+  letter-spacing: normal;
   @include media-query($small){
     font-size: 3.5vw;
   };
   @include media-query($large){
-    width: 40%;
+    width: 50%;
   };
 }
 
@@ -435,6 +436,10 @@ main {
     list-style: none;
     li {
       position: relative;
+      line-height: 1em;
+      &+li {
+        padding-top: .5em;
+      }
       &:before {
         content: counter(item) ". ";
         counter-increment: item;
@@ -446,6 +451,7 @@ main {
       p {
         display: inline;
         font-weight: 700;
+        line-height: 1.1em;
       }
     }
   }
@@ -680,11 +686,13 @@ main {
       font-size: 1.5rem;
       margin: 0 0 10px;
       line-height: 1em;
+      padding-top: 10px;
       @include media-query($small){
         font-size: 2.5rem;
       };
       @include media-query($medium){
         font-size: 4rem;
+        padding-top: 0;
       };
     }
     .btn {
@@ -920,7 +928,7 @@ main {
     @include display_flex;
     @include direction_row;
     overflow: auto;
-    margin: -10px 0;
+    margin: -20px 0;
   }
   .ooo_twitter__inner {
     margin: 0;
@@ -1041,6 +1049,17 @@ main {
     @include media-query($small){
       height: unset;
     };
+    .ooo_background_image {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      filter: grayscale(1);
+    }
     img {
       width: 80%;
       height: 80%;
@@ -1048,7 +1067,8 @@ main {
       z-index: 1;
       max-height: 45vh;
     }
-    &.ooo_whiteout {
+    &.ooo_whiteout,
+    &.ooo_blueout {
       position: relative;
       &:before {
         content: '';
@@ -1058,6 +1078,13 @@ main {
         width: 100%;
         top: 0;
         left: 0;
+        z-index: 1;
+      }
+    }
+    &.ooo_blueout {
+      &:before {
+        background: $blue;
+        opacity: .6;
       }
     }
   }
@@ -1217,5 +1244,15 @@ main {
   p.desc {
     opacity: .7;
     max-width: 400px;
+  }
+}
+
+
+.ooo_advisors {
+  .ooo_members__frame {
+    @include align-items(flex-start);
+  }
+  .ooo_card {
+    min-height: unset;
   }
 }

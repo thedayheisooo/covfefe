@@ -19,6 +19,25 @@ body.ooo {
   min-height: 100vh;
 }
 
+// General defaults
+.small {
+  font-size: 70%;
+}
+
+.no-src.lazyload,
+.no-src.lazyloading {
+	opacity: 0;
+  -webkit-filter: blur(5px);
+	filter: blur(5px);
+	transition: filter 400ms, -webkit-filter 400ms;
+}
+
+.no-src.lazyloaded {
+	opacity: 1;
+  -webkit-filter: blur(0);
+	filter: blur(0);
+	transition: opacity .6s;
+}
 
 // device width (use bootstrap)
 //$xtra-large: none !default;
@@ -123,5 +142,7 @@ justify-content: $justify;
   "main-items",
   "home/shopping_section",
   "404",
-  "protect"
+  "protect",
+  "static",
+  "analytics"
 ;

@@ -1,0 +1,63 @@
+---
+---
+The Day He Is Out Of Office
+TinyHands UG (haftungsbeschraenkt)
+
+www.thedayheisooo.com
+twitter.com/@thedayheisooo
+_______________________________________
+
+Last build process on {{ site.time }}
+via {{ site.url }}
+_______________________________________
+
+Contact for technical/development questions:
+brian@thedayheisooo.com
+_______________________________________
+
+Based upon the following projects:
+
+- Autolinker.js
+  Utility to Automatically Link URLs, Email Addresses, Phone Numbers, Twitter handles, and Hashtags in a given block of text/HTML
+  https://github.com/gregjacobs/Autolinker.js
+  
+- BalanceText by Adobe
+  A plugin for implementing balancing of wrapping text in a web page
+  https://github.com/adobe-webplatform/balance-text
+
+- Jekyll
+  Jekyll is a blog-aware static site generator in Ruby
+  https://jekyllrb.com
+
+- lazysizes by aFarkas
+  High performance and SEO friendly lazy loader for images (responsive and normal), iframes and more, that detects any visibility changes triggered through user interaction, CSS or JavaScript without configuration.
+  https://github.com/aFarkas/lazysizes
+
+- Normalize.css
+  A modern, HTML5-ready alternative to CSS resets
+  Normalize.css makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing.
+  https://necolas.github.io/normalize.css/
+
+- Slick
+  the last carousel you'll ever need
+  http://kenwheeler.github.io/slick
+
+- TimeAgo
+  The original jQuery plugin that makes it easy to support automatically updating fuzzy timestamps (e.g. "4 minutes ago").
+  https://timeago.yarp.com/
+_______________________________________
+
+CHANGELOG
+
+201812311301
+Close to 2019. This website got prepared for the new year.
+
+201811040108
+Implementation of an Airtable backend for tweets
+
+201810051802
+Initial implementation of Netlify CMS
+
+201810050119
+Inital Commit for Website
+Site is ready to be presented

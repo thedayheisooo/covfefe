@@ -5,7 +5,8 @@
     </a>
   </div>
   <ul>
-    {% for el in site.data.nav.main %}
+    {% assign main_nav = site.data.nav.main | where: 'active', 'true' %}
+    {% for el in main_nav %}
     <li><a href="{{ el.url }}" {% if el.name == 'buy' %}class="buy"{% endif %}>{{ el.name }}</a></li>
     {% endfor %}
   </ul>

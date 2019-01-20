@@ -6,6 +6,7 @@ layout: compress
   {% include head.html %}
   <body class="ooo ooo_{{ page.layout | downcase }}">
     {% unless page.layout == 'protect' %}
+    {% include analytics.html %}
     {% include/nav_mobile.html %}
     {% endunless %}
     {{ content }}

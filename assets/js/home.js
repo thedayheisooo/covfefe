@@ -1,4 +1,6 @@
 ---
+sitemap:
+  exclude: 'yes'
 ---
 {% include js/slick.min.js %}
 {% include js/faq.js %}
@@ -33,7 +35,7 @@ $('#shop_image').slick({
   appendDots: $('#shop_image'),
   arrows: false,
   lazyLoad: 'ondemand',
-  autoplay: true
+  autoplay: false
 })
 
 

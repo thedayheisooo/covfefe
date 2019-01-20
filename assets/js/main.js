@@ -1,9 +1,41 @@
 ---
+sitemap:
+  exclude: 'yes'
 ---
+
+{% include js/analytics_script.js %}
+
+// balancetext polyfill
+{% include js/balancetext.min.js %}
+//balanceText();
+//
+
 {% include js/jquery.timeago.js %}
 jQuery(document).ready(function() {
   jQuery("time.ooo_ago").timeago();
 });
+
+{% include js/lazysizes.min.js %}
+document.addEventListener('lazybeforeunveil', function(e){
+  var bg = e.target.getAttribute('data-bg');
+  if(bg){
+      e.target.style.backgroundImage = 'url(' + bg + ')';
+  }
+});
+
+{% include js/autolinker.min.js %}
+var autolinker = new Autolinker({
+  newWindow: true,
+  phone: false,
+  mention: 'twitter',
+  hashtag: 'twitter',
+  truncate: 25
+});
+
+$('.ooo_tweet__content').each( function(){
+  var el = $(this);
+  el.html('<p>' + autolinker.link( el.text() ) + '</p>');
+})
 
 
 var window_width = $(window).width();
