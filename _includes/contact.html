@@ -1,10 +1,11 @@
 <div class="ooo_contact">
   <h2>Contact</h2>
-  {{ page.contact.name | markdownify }}
+  {{ page.contact.company | markdownify }}
   {{ page.contact.street  | markdownify }}
   {{ page.contact.location | markdownify }}
   <div class="ooo_contact_details">
-    {{ page.contact.phone | markdownify }}
-    {{ page.contact.email | markdownify }}
+    {{ page.contact.phone | prepend: 'Phone: ' | markdownify }}
+    {{ page.contact.email | prepend: 'eMail: ' | markdownify }}
+    {{ page.contact.name | prepend: 'Authorized Managing Director: ' | markdownify }}
   </div>
 </div>
