@@ -19,6 +19,9 @@ main:
     active: true
 
 footer:
+  - name: AGB
+    url: /agb
+    active: true
   - name: Imprint
     url: /imprint
     active: true
