@@ -385,6 +385,13 @@ h1.claim, p.sub_claim {
   };
 }
 
+.sub_claim {
+  font-size: 50%;
+  display: block;
+  line-height: 1.4em;
+  margin: 20px 0 30px;
+}
+
 a.btn, button.btn {
   background: $red;
   border-radius: 5px;
