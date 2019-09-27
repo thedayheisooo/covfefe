@@ -3,10 +3,10 @@
     <h2>SOCIAL MEDIA:<br>See WHAT‘S HAPPENING</h2>
     <p class="intro_el">In case you are wondering what we are working on or where somebody is preparing for the big party.</p>
   </div>
-  <div id="ooo_twitter">
-    <div class="ooo_twitter__scroll">
+  <!-- <div id="ooo_twitter">
+    <div class="ooo_twitter__scroll"> -->
 
-      <div class="ooo_twitter__inner" id="twitter_db">
+      <!-- <div class="ooo_twitter__inner" id="twitter_db">
         {% for tweet in site.data.twitter.featured %}
           <blockquote class="ooo_card ooo_tweet">
             <p class="featured">Featured</p>
@@ -28,9 +28,9 @@
               </a>
             </cite>
           </blockquote>
-        {% endfor %}
+        {% endfor %} -->
 
-        {% for tweet in site.data.twitter.all %}
+        <!-- {% for tweet in site.data.twitter.all %}
           <blockquote class="ooo_card ooo_tweet">
             <div class="ooo_tweet__content">{{ tweet.tweet }}</div>
             {%- if tweet.media_type == 'photo' -%}
@@ -51,7 +51,7 @@
             </cite>
           </blockquote>
         {% endfor %}
-      </div>
+      </div> -->
 
       <!-- <div class="ooo_load_btn__frame">
         <div id="ooo_load_btn" onclick="load_twitter_db()" class="">
@@ -59,8 +59,8 @@
         </div>
       </div> -->
 
-    </div>
-  </div>
+    <!-- </div>
+  </div> -->
   <div class="ooo__grid_el grid__social">
     <div class="social_channels">
       {% for channel in site.data.defaults.channels %}
